@@ -1,8 +1,6 @@
 body {
-	background-color: black;
+	background-color: white;
 	color: #505050;
-}
-#homePage {
 	background-image:url(../images/homebackground.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
