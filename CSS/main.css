@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+	color: #505050;
+}
+#homePage {
+	background-image:url(../images/homebackground.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+nav {
+	background-color:
+	border:;
+	color: #505050;
+	margin: 8px 22px 8px 22px;
+	width: 90%; /* ??? */
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+
+}
