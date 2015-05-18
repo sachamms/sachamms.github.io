@@ -2,8 +2,8 @@ body {
 	background-color: white;
 	color: #505050;
 }
-body#homePage {
-	background-image:url(../images/homebackground.jpg);
+#homePage {
+	background-image:url(../images/homebackground_discovery.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -18,9 +18,36 @@ nav {
 
 nav ul {
 	margin: 0;
-	padding: 0;
+	padding: 0; /* ??? */
 }
 
 h1 {
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: ;
+	color: #444;
+	font-weight:;
+	font-style:;
+	text-align:;
+	text-transform: ;
+	letter-spacing:;
+	margin-top:; /* ??? */
 
-}
+	}
+
+
+h2 {
+
+} /* ??? */
+
+h3 {
+
+} /* ??? */
+
+p {
+	font-family:;
+	font-size:;
+	line-height: ;
+	text-transform: ;
+	color: #444;
+
+} /* ??? */
