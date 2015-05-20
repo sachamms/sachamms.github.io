@@ -7,6 +7,7 @@ body {
 	background-size:cover;
 	background-repeat:no-repeat;
 	/* ???-fix CSS so paintings always fills browser at bottom */
+	/* ../ for escaping CSS folder */
 }
 
 nav {
