@@ -6,6 +6,7 @@ body {
 	background-image:url(../images/homebackground_discovery.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
+	/* ???-fix CSS so paintings always fills browser at bottom */
 }
 
 nav {
