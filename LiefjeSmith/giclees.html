@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 	<link rel="stylesheet" type="text/css" href="CSS/main.css">
 	<title>Paintings by Liefje</title>
 </head>
@@ -19,42 +24,42 @@
 				<li><a href="giclees.html#giclees">Giclees</a></li>
 			</ul>
 				
-			</ul>
+			
 		</nav>
 	</header>
 
 <!--paintings displayed starting here -->
-<!--add feature where images are blown up when clicked on like http://clarablalock.com/2014.html -->
+<!--add link to larger image on all small pictures-->
 
 <!--add watermarks, fix edges of paintings-->
 	<section>
 		<h1> giclees </h1>
 
    		<!--1 painting Cultured Bird One-->
-				<figure>
-						<img src="images/giclees_CulturedBirdIsmall_30x30Liefje.jpg" 
-						alt="abstract painting titled Cultured Bird One">
-						<figcaption>Cultured Bird One; available sizes: 24x24", 30x30"</figcaption>
-				</figure>
+		<figure>
+				<a class="fancybox" rel="group" href="??????"><img src="images/giclees_CulturedBirdIsmall_30x30Liefje.jpg" 
+				alt="abstract painting titled Cultured Bird One"></a>
+				<figcaption>Cultured Bird One; available sizes: 24x24", 30x30"</figcaption>
+		</figure>
 
 		<!--2 painting Cultured Bird Two-->
-				<figure>
-						<img src="images/giclees_CulturedBirdIIsmall30x30LiefjeSmith.jpg" 
-						alt="abstract painting titled Cultured Bird Two">
-						<figcaption>Cultured Bird Two; available sizes: 24x24", 30x30"</figcaption>
-				</figure>
+		<figure>
+				<a class="fancybox" rel="group" href="??????"><img src="images/giclees_CulturedBirdIIsmall30x30LiefjeSmith.jpg" 
+				alt="abstract painting titled Cultured Bird Two"></a>
+				<figcaption>Cultured Bird Two; available sizes: 24x24", 30x30"</figcaption>
+		</figure>
 
 		<!--3 painting Cottage and Snowballs-->
-				<figure>
-						<img src="images/giclees_CottageandSnowballBushsmall_LiefjeSmith.jpg" alt="abstract painting titled Cottage and Snowballs">
-						<figcaption>Cottage and Snowballs; available sizes: 16x20", 24x30"</figcaption>
-				</figure>
+		<figure>
+				<a class="fancybox" rel="group" href="??????"><img src="images/giclees_CottageandSnowballBushsmall_LiefjeSmith.jpg" alt="abstract painting titled Cottage and Snowballs"></a>
+				<figcaption>Cottage and Snowballs; available sizes: 16x20", 24x30"</figcaption>
+		</figure>
 
 		<!--4 painting Interior Patterns Three-->
-				<figure>
-						<img src="images/giclees_InteriorPatternsThreesmall36x48byLiefjeSmith2013.jpg" alt="abstract painting titled Interior Patterns Three">
-						<figcaption>Interior Patterns Three; available size: 36x48"</figcaption>
-				</figure>
+		<figure>
+				<a class="fancybox" rel="group" href="??????"><img src="images/giclees_InteriorPatternsThreesmall36x48byLiefjeSmith2013.jpg" alt="abstract painting titled Interior Patterns Three"></a>
+				<figcaption>Interior Patterns Three; available size: 36x48"</figcaption>
+		</figure>
 		<ul>
 			<li> fine-art, archival paper signed by the artist</li>
 			<li> limited editions: only 200 printed per painting</li>
@@ -71,4 +76,9 @@
 
 
 </body>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	</script>
 </html>

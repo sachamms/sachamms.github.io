@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<link rel="stylesheet" type="text/css" href="CSS/main.css">
 	<title>Paintings by Liefje</title>
 </head>
@@ -24,7 +28,7 @@
 				<li><a href="giclees.html#giclees">Giclees</a></li>
 			</ul>
 				
-			</ul>
+		
 		</nav>
 	</header>
 
@@ -39,4 +43,9 @@
 
 
 </body>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
 </html>
