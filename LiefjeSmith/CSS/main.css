@@ -132,4 +132,5 @@ p {
 
 footer {
 	font-family: 'Lato', Helvetica, sans-serif;
+	/* create class for copyright statement to make it Lato */
 }
