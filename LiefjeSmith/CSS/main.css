@@ -1,61 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Alegreya);
+
 * {
 	margin: 0;
 	padding: 0; 
 	box-sizing: border-box;
 }
 
+header {
+	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+a {
+    color: #505050;
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #505050;
+}
+
+/* visited link */
+a:visited {
+    color: #585858;
+}
+
+/* mouse over link */
+a:hover {
+    color: #080808;
+}
+
+/* selected link */
+a:active {
+    color: #505050;
+}
+
 body {
+	font-size: 17px;
 	background-color: white;
 	color: #505050;
+	line-height: 1.3em;
+	/* is this the correct way to do the margins on side of text? */
+	/* it doesn't seem to be effective when I stretch 
+	the browser very, very wide or very, very small*/
+	/* looks like I need to create a div??? */
+	margin-left: 10em;
+	margin-right: 10em;
+
 }
+
 #homePage {
-	background-image:url(../images/homebackground_discovery.jpg);
-	background-size:cover;
+	background-image: url(../images/homebackground_discovery.jpg);
+	background-size: cover;
 	background-repeat:no-repeat;
 	/* ???-fix CSS so paintings always fills browser at bottom */
 	/* ../ for escaping CSS folder */
 }
 
 nav {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 400; 
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #A0A0A0;
+	text-transform: uppercase;
 	background-color:
+	font-size: 2em;
 	border:;
 	color: #505050;
-	margin: 8px 22px 8px 22px;
+	margin-bottom: .2em;
 	width: 90%; /* ??? */
 }
 
 nav ul {
-	margin: 0;
-	padding: 0; /* ??? */
+	list-style-type: none;
+	margin: ;
+	padding: ; /* ??? */
 }
 
+ul {
+	list-style-type: none;
+}
+
+/* I want bullet points on giclees page
+make separate class?*/
+
+
+
+/* create class with white text on gray 
+header background for all pages except 
+home page or vice versa*/
+
+
 h1 {
-	font-family: Georgia, "Times New Roman", Times, serif; 
-	font-size: ;
-	color: #444;
+	font-family: 'Lato', Helvetica, sans-serif;
+	margin-bottom: .2em;
+	font-weight: 700; 
+	font-size: 3em;
+	line-height: 1em;
+	color: #B2B2B2;
 	font-weight:;
 	font-style:;
-	text-align:;
-	text-transform: ;
 	letter-spacing:;
 	margin-top:; /* ??? */
-
 	}
 
-
 h2 {
-
+	margin-top: 1em;
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 400; 
+	line-height: 1.5em;
+	text-transform: uppercase;
+	color: #A0A0A0;
+	font-size: 1.5em;
 } /* ??? */
 
 h3 {
-
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 1em;
 } /* ??? */
 
 p {
-	font-family:;
-	font-size:;
-	line-height: ;
-	text-transform: ;
-	color: #444;
-
+	font-family:'Alegreya','Times New Roman' serif;
+	margin-bottom: 1em;
+	line-height: 1.3em;
+	font-size: 1em;
+	letter-spacing: ;
 } /* ??? */
+
+footer {
+	font-family: 'Lato', Helvetica, sans-serif;
+}
