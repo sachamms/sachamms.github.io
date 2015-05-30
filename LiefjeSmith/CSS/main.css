@@ -42,9 +42,7 @@ body {
 	background-color: white;
 	color: #505050;
 	line-height: 1.3em;
-	margin-left: 10em;
-	margin-right: 10em;
-}
+	}
 
 #homePage {
 	background-image: url(../images/homebackground_discovery.jpg);
@@ -120,26 +118,73 @@ p {
 
 footer {
 	font-family: 'Lato', Helvetica, sans-serif;
-	/* create class for copyright statement to make it Lato-already done? */
+	clear: both;
+	text-transform: uppercase;
+	text-align: right;
+	color: #B2B2B2;
+	float: right;
+	/* create class or ID to change color? */
 }
 
 /* Put classes and IDs below here */
 
-#wrapper{
+#wrapper{ /* doesn't work on statement page ??? */
 	width: 960px;
 	margin: 0 auto;
 }
-/* doesn't work on statement page ??? */
+
 
 
 .navli{
 	display: inline; /* worked */
-	/* make similar to bettycuninghamgallery.com?? */
-	
-	
-
-
+	letter-spacing: .02em;
+/* make similar to bettycuninghamgallery.com?? */
+/* words need to be farther apart */
 }
+
+.navbar{
+		float: left; /* ???????????? */
+		width: 70%;
+		padding: 2.21em 2em;
+		background-color: teal;
+		/* change background color to gray or fun color that 
+		matches the painting */
+}
+
+.logo{
+	float: left;
+	width: 30%;
+	background: green;
+}
+
+
+.statementbiopic {
+	float: left;
+	width: 20%;
+	padding: 4.5em 2em;
+}
+
+.artiststatement {
+	float: right; /* ???????????? */
+	padding: 4em .5em;
+	background: ;
+	width: 80%;
+}
+
+.clearfix:after {  
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.headingspace{
+	padding: 4em 0 0 0;
+}
+/* where do I put the div class ="clear fix" in html ? right spot?*/
+
+
 
 /* I want bullet points on giclees page
 make separate class?*/

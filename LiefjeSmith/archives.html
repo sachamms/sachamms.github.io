@@ -12,33 +12,33 @@
 </head>
 <body>
 
-
-	<header>
-		<a href="index.html" class="logo">Paintings by Liefje</a>
-		<!--USE GRAY LOGO WITH WHITE TEXT-GRAY MENU BAR-->
-		<!--remove text that says "Paintings by Liefje" since it's already on logo-->
-
-		<!--how do I insert the logo that is part of the nav menu? -->
-		<!--add feature to all other html pages on site -->
-		<img src="images/LiefjeHorizontalLogo_WhiteTextonGray.png" alt="logo">
-
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="statement.html">Statement</a></li>
-				<li><a href="resume.html">Resume</a></li>
-				<li><a href="newwork.html#newwork">New Work</a></li>
-				<li><a href="archives.html#archives">Archives</a></li>
-				<li><a href="giclees.html#giclees">Giclees</a></li>
-			</ul>
-		</nav>
-	</header>
+<div id="wrapper">
+	<!--add this div wrapper feature to other pages as well-->
+<section class="clearfix:after">
+		<!--did I do this right?-->
+<header>
+		<a href="index.html" class="logo">
+			<img src="images/LiefjeHorizontalLogo_WhiteTextonGray.png" 
+			alt="logo">
+		</a>
+		
+			<nav class="navbar">
+				<ul>
+					<li class="navli"><a href="statement.html">Statement</a></li>
+					<li class="navli"><a href="resume.html">Resume</a></li>
+					<li class="navli"><a href="newwork.html#newwork">New Work</a></li>
+					<li class="navli"><a href="archives.html#archives">Archives</a></li>
+					<li class="navli"><a href="giclees.html#giclees">Giclees</a></li>
+				</ul>
+			</nav>
+			<!--add hambuger menu for when browser too narrow -->
+		</header>
 
 <!--paintings displayed starting here -->
 <!--I want to put the paintings in 3 vertical columns-->
 <!--add watermarks, fix edges of paintings-->
 	<section>
-		<h1>archives</h1>
+		<h1 class="headingspace">archives</h1>
 		<!--1 painting Tracery-->
 		<figure>
 			<a class="fancybox" rel="group" href="images/archives_Tracerylarge48x48LiefjeSmith2013.jpg"><img src="images/archives_Tracerysmall48x48LiefjeSmith2013.jpg" alt="abstract painting titled Tracery"></a>
@@ -99,6 +99,8 @@
 		subject=www.paintingsbyLiefje.com">liefysmithart@comcast.net</a>
 		<p> Copyright &copy; 2015 Liefje Smith. All rights reserved. </p>
 	</footer>
+	</section>
+</div>
 
 
 </body>
