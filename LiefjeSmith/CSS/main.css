@@ -7,11 +7,53 @@
 	box-sizing: border-box;
 }
 /* sets padding and margin so not up to different browsers interpretation */
-
+body {
+	font-size: 17px;
+	background-color: white;
+	color: #505050;
+	line-height: 1.3em;
+	}
 header {
 	font-family: 'Lato', Helvetica, sans-serif;
  }
+ nav {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 400; 
+	font-size: 1.2em;
+	line-height: 1.5em;
+	letter-spacing: .03em;
+	color: #A0A0A0;
+	text-transform: uppercase;
+	background-color: 
+	font-size: 2em;
+	border:;
+	color: #505050;
+	margin-bottom: .2em;
+	 /* ??? */
+}
 
+nav ul {
+	list-style-type: none;
+	margin: ;
+	padding: ; /* ??? */
+}
+figure {
+	width: 33%;
+	padding: 2em;
+	float: left;
+}
+figure img {
+	width:100%;	
+}
+footer {
+	font-family: 'Lato', Helvetica, sans-serif;
+	clear: both;
+	text-transform: uppercase;
+	text-align: right;
+	color: #B2B2B2;
+	float: right;
+	/* create class or ID to change color? */
+}
 a {
     color: #505050;
     text-decoration: none;
@@ -36,44 +78,6 @@ a:hover {
 a:active {
     color: #505050;
 }
-
-body {
-	font-size: 17px;
-	background-color: white;
-	color: #505050;
-	line-height: 1.3em;
-	}
-
-#homePage {
-	background-image: url(../images/homebackground_discovery.jpg);
-	background-size: cover;
-	background-repeat:no-repeat;
-	/* ???-fix CSS so paintings always fills browser at bottom */
-	/* ../ for escaping CSS folder */
-}
-
-nav {
-	font-family: 'Lato', Helvetica, sans-serif;
-	font-weight: 400; 
-	font-size: 1.2em;
-	line-height: 1.5em;
-	letter-spacing: .03em;
-	color: #A0A0A0;
-	text-transform: uppercase;
-	background-color: 
-	font-size: 2em;
-	border:;
-	color: #505050;
-	margin-bottom: .2em;
-	 /* ??? */
-}
-
-nav ul {
-	list-style-type: none;
-	margin: ;
-	padding: ; /* ??? */
-}
-
 ul {
 	list-style: none;
 }
@@ -116,17 +120,16 @@ p {
 	letter-spacing: ;
 } /* ??? */
 
-footer {
-	font-family: 'Lato', Helvetica, sans-serif;
-	clear: both;
-	text-transform: uppercase;
-	text-align: right;
-	color: #B2B2B2;
-	float: right;
-	/* create class or ID to change color? */
-}
+
 
 /* Put classes and IDs below here */
+#homePage {
+	background-image: url(../images/homebackground_discovery.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	/* ???-fix CSS so paintings always fills browser at bottom */
+	/* ../ for escaping CSS folder */
+}
 
 #wrapper{ /* doesn't work on statement page ??? */
 	width: 960px;
@@ -169,12 +172,6 @@ footer {
 	padding: 4em .5em;
 	background: ;
 	width: 80%;
-}
-
-.3columnpaintings {
-	width: 33%;
-	padding: 2em;
-	float: left;
 }
 
 .clearfix:after {  
