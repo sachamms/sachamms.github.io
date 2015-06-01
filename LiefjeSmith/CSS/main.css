@@ -65,7 +65,7 @@ nav {
 	border:;
 	color: #505050;
 	margin-bottom: .2em;
-	width: 90%; /* ??? */
+	 /* ??? */
 }
 
 nav ul {
@@ -169,6 +169,12 @@ footer {
 	padding: 4em .5em;
 	background: ;
 	width: 80%;
+}
+
+.3columnpaintings {
+	width: 33%;
+	padding: 2em;
+	float: left;
 }
 
 .clearfix:after {  
