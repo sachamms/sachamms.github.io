@@ -15,7 +15,7 @@ body {
 	line-height: 1.3em;
 	}
 
-	footer {
+footer {
 	font-family: 'Lato', Helvetica, sans-serif;
 	clear: both;
 	text-transform: uppercase;
@@ -29,7 +29,7 @@ header {
 	font-family: 'Lato', Helvetica, sans-serif;
  }
 
- nav {
+nav {
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 400; 
 	font-size: 1.2em;
@@ -193,7 +193,7 @@ p {
 .headingspace{
 	padding: 4em 0 0 0;
 }
-/* where do I put the div class ="clear fix" in html ? right spot?*/
+/* class="clear fix" in html; class="clearfix:after" in CSS*/
 
 
 
