@@ -12,12 +12,10 @@
 </head>
 <body>
 
-<div id="wrapper">
-	<!--add this div wrapper feature to other pages as well-->
-<section class="clearfix">
-		<!--did I do this right?-->
+<header class="clearfix">
+	<div class="wrapper"> <!--don't put wrapper around header, put inside header -->
 <header>
-		<a href="index.html" class="logo">
+		<a href="index.html">
 			<img src="images/LiefjeHorizontalLogo_GrayTextonWhite.png" 
 			alt="logo">
 		</a>
@@ -32,12 +30,13 @@
 				</ul>
 			</nav>
 			<!--add hambuger menu for when browser too narrow -->
-		</header>
+	</div>
+</header>
 
 <!--paintings displayed starting here -->
 <!--make all paintings square 400x400px-->
 <!--add watermarks, fix edges of paintings-->
-	<section>
+	<div class="wrapper">
 		<h1 class="headingspace"> giclees </h1>
 
    		<!--1 painting Cultured Bird One-->
@@ -72,18 +71,18 @@
 			<li class="indentbullets"> each print comes with a certificate of authenticity</li>
 		</ul>
 
-	</section>
+	</div>
 
-	<hr>
+	<!--<hr> causing issues-just remove, I'm not sure where to put clear fix-->	
 
 <!--keep the contact email at the foot of the page-->
-	<footer>
-		<a href="mailto:liefysmithart@comcast.net?
-		subject=www.paintingsbyLiefje.com">liefysmithart@comcast.net</a>
-		<p> Copyright &copy; 2015 Liefje Smith. All rights reserved.</p>
-	</footer>
-	</section>
-</div>
+	<div class="wrapper">
+		<footer>
+			<a href="mailto:liefysmithart@comcast.net?
+			subject=www.paintingsbyLiefje.com">liefysmithart@comcast.net</a>
+			<p> Copyright &copy; 2015 Liefje Smith. All rights reserved.</p>
+		</footer>
+	</div>
 
 
 </body>

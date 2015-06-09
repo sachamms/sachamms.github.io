@@ -12,12 +12,10 @@
 </head>
 <body>
 
-	<div id="wrapper">
-	<!--add this div wrapper feature to other pages as well-->
-<section class="clearfix">
-		<!--did I do this right?-->
-<header>
-		<a href="index.html" class="logo">
+	
+<header class="clearfix">
+	<div class="wrapper"> <!--don't put wrapper around header, put inside header -->
+		<a href="index.html">
 			<img src="images/LiefjeHorizontalLogo_GrayTextonWhite.png" 
 			alt="logo">
 		</a>
@@ -32,13 +30,14 @@
 				</ul>
 			</nav>
 			<!--add hambuger menu for when browser too narrow -->
-		</header>
+	</div>
+</header>
 
 <!--paintings displayed starting here -->
 <!--add watermarks, fix edges of paintings, change size of smalls to 400x400px-->
 	
 	<!--floating figure tags-->
-
+	<div class="wrapper">
 		<h1 class="headingspace">new work</h1>
 		<!--1 painting Dazzle 48x48-->
 		<figure>
@@ -121,18 +120,20 @@
 			<figcaption><i>Linear Music</i>, 60x20"</figcaption>
 		</figure>
 
-		<hr><!--needs clear fix???-->
-
+		<!--<hr> causing issues-just remove, I'm not sure where to put clear fix-->	
+	</div>
 	
 
 
 <!--keep the contact email at the foot of the page-->
-	<footer>
-		<a href="mailto:liefysmithart@comcast.net?
+	<div class="wrapper">
+		<footer>
+			<a href="mailto:liefysmithart@comcast.net?
 		subject=www.paintingsbyLiefje.com">liefysmithart@comcast.net</a>
-		<p> Copyright &copy; 2015 Liefje Smith. All rights reserved.</p>
-	</footer>
-	</section>
+			<p> Copyright &copy; 2015 Liefje Smith. All rights reserved.</p>
+		</footer>
+	</div>
+	
 </div>
 
 

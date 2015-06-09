@@ -24,15 +24,16 @@ footer {
 	clear: both;
 	text-transform: uppercase;
 	text-align: right;
-	color: #B2B2B2; /* not changing?, overridden? */
+	color: #B2B2B2; 
 	float: right;
 	padding: 1em 0em;
-	/* create class or ID to change color? */
+	
 }
 
 footer a {
-	color: #B2B2B2; /* not working ?? */
-	font-size: 15px; /* best way to make smaller than body text */
+	color: #B2B2B2; 
+	font-size: 15px; /* enter pixel size here rather than percentage */
+	line-height: 1em;
 }
 
 footer p {
@@ -43,11 +44,14 @@ footer p {
 
 header {
 	font-family: 'Lato', Helvetica, sans-serif;
-	background-color: #FFFFFF;
-	box-shadow: 0px 0px 10px; /* why is it not on index page?
-	-apply clear fix */
- } /* put the background color for the navigation menu at the top
- under header tag */
+	background-color: #FFFFFF; 
+	} /* put the background color for the navigation menu 
+	and logo, under header tag */
+
+ header img {
+ 	width: 250px; 
+ 	margin-left: 2em; /* ok ???? */
+ }
 
 nav {
 	font-family: 'Lato', Helvetica, sans-serif;
@@ -57,13 +61,12 @@ nav {
 	letter-spacing: .03em;
 	color: #A0A0A0;
 	text-transform: uppercase;
-	background-color: 
 	font-size: 2em;
-	border:;
-	margin-bottom: .2em;
+	float: right; /* ok ???? */
 }
 
 nav ul {
+	float: left; /* ok ???? */
 	list-style-type: none;
 	margin: ;
 	padding: ; /* ??? */
@@ -76,12 +79,12 @@ figure {
 figure img {
 	width:100%;	
 }
+/* it's 100 percent of parent, which is 33% of Div set at 910 px */
 
 figcaption {
 	color: #505050;
-
 }
-/* it's 100 percent of parent, which is 33% of Div set at 960 px */
+
 
 
 a {
@@ -135,6 +138,7 @@ p {
 } /* ??? */
 
 hr {
+	margin-top: 1em;
 }
 
 
@@ -148,17 +152,18 @@ hr {
 	/* ../ for escaping CSS folder */
 }
 
-#wrapper{ /* doesn't work on statement page ??? */
-	width: 910px;
+.wrapper{ /* doesn't work on statement page ??? */
+	width: 910px; /* ok? i like this width, should be 1200px? */
 	margin: 0 auto;
-}
+} /* make wrapper a class */
+
 
 .homepageintro {
-	background-color: rgba(255, 255, 255, 0.5);
-	text-align: center;
+	background-color: rgba(255, 255, 255, 0.7);
 	color: #505050;
-	padding: 10em;
-/* is this correct */
+	padding: 3em 2em 2em 2em; /* why isn't the text centered vertically */
+	width: 32em; /* 26em based on 910px width-change ?? */
+	margin: 10em auto;
 }
 
 
@@ -168,34 +173,24 @@ hr {
 	letter-spacing: .02em;
 	color: white;
 /* make similar to bettycuninghamgallery.com?? */
-/* words need to be farther apart */
 }
 
 .navbar{
-		float: left; /* ???????????? */
-		width: 65%;
 		padding: 4em 2em;
 		font-size: 1em;
 		letter-spacing: 1em;
-		/* background color was #A0A0A0*/
-}
-
-.logo{
-	float: left;
-	width: 30%;
-	padding: 0em;
 }
 
 
 .statementbiopic {
 	float: left;
 	width: 20%;
-	padding: 4.5em 2em;
+	padding: 1em 2em;
 }
 
 .artiststatement {
 	float: right; /* ???????????? */
-	padding: 4em 1em;
+	padding: 0em 1em;
 	background: ;
 	width: 80%;
 }
@@ -207,16 +202,17 @@ hr {
 	height: 0; 
 	clear: both;
 }
+/* class="clear fix" in html; class="clearfix:after" in CSS*/
 
-.headingspace{
-	padding: 4em 0 0 0;
+
+.headingspace{ /* delete? spacing different on Statement page */
+	padding: 0em;
 }
 
 .archivecolumns{
 	width: 50%;
 	padding: 4em;
 	float: left;
-
 }
 
 .indentbullets {
@@ -224,11 +220,8 @@ hr {
 }
 
 
-	/* For indenting bullets */
 
-}
 
-/* class="clear fix" in html; class="clearfix:after" in CSS*/
 
 
 

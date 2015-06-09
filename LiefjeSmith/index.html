@@ -12,42 +12,45 @@
 </head>
 <body id="homePage">
 
-<section class="clearfix">
-	<!--did I do this right?-->
+
 	<header>
-		<a href="index.html" class="logo">
-			<img src="images/LiefjeHorizontalLogo_GrayTextonWhite.png" 
+		<div class="wrapper"> <!--don't put wrapper around header, put inside header -->
+			<a href="index.html">
+				<img src="images/LiefjeHorizontalLogo_GrayTextonWhite.png" 
 			alt="logo">
-		</a>
+			</a>
 		
-
-		<nav class="navbar">
-			<ul>
-				<li class="navli"><a href="statement.html">Statement</a></li>
-				<li class="navli"><a href="resume.html">Resume</a></li>
-				<li class="navli"><a href="newwork.html#newwork">New Work</a></li>
-				<li class="navli"><a href="archives.html#archives">Archives</a></li>
-				<li class="navli"><a href="giclees.html#giclees">Giclees</a></li>
-			</ul>
-		</nav>
-		<!--add hambuger menu for when browser too narrow -->
-		<!--nav menu can just have <a> links, don't have to have as a <ul> -->
+			<nav class="navbar">
+				<ul>
+					<li class="navli"><a href="statement.html">Statement</a></li>
+					<li class="navli"><a href="resume.html">Resume</a></li>
+					<li class="navli"><a href="newwork.html#newwork">New Work</a></li>
+					<li class="navli"><a href="archives.html#archives">Archives</a></li>
+					<li class="navli"><a href="giclees.html#giclees">Giclees</a></li>
+				</ul>
+			</nav>
+			<!--add hambuger menu for when browser too narrow -->
+			<!--nav menu can just have <a> links, don't have to have as a <ul> -->
+		</div>
 	</header>
-
-	<section class="homepageintro">
-	<blockquote> Welcome statement or Quote-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</blockquote>
-	</section>
+	
+		<div class="wrapper">
+			<section class="homepageintro"><p> Welcome statement or Quote-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p></section>
+		</div>
 	
 
 
 <!--may rotate image with 2 other images -->
 
 <!--keep the contact email at the foot of the page FIX PLACEMENT ON EVERY PAGE-->
-	<footer>
-		<a href="mailto:liefysmithart@comcast.net?
-		subject=www.paintingsbyLiefje.com">liefysmithart@comcast.net</a>
-	</footer>
-</section>
+		
+	<div class="wrapper">
+		<footer>
+			<a href="mailto:liefysmithart@comcast.net?
+			subject=www.paintingsbyLiefje.com">liefysmithart@comcast.net</a>
+		</footer>
+	</div>
+
 
 
 </body>

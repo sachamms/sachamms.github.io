@@ -10,13 +10,12 @@
 	
 	<title>Paintings by Liefje</title>
 </head>
+<body>
 
-<div id="wrapper">
-	<!--add this div wrapper feature to other pages as well-not really working-->
-<section class="clearfix">
-		<!--did I do this right?-->
-<header>
-		<a href="index.html" class="logo">
+
+<header class="clearfix">
+	<div class="wrapper"> <!--don't put wrapper around header, put inside header -->
+		<a href="index.html">
 			<img src="images/LiefjeHorizontalLogo_GrayTextonWhite.png" 
 			alt="logo">
 		</a>
@@ -31,12 +30,14 @@
 				</ul>
 			</nav>
 			<!--add hambuger menu for when browser too narrow -->
-		</header>
+	</div>
+</header>
 
 
 
-	<!--how do I insert the logo that is part of the nav menu? -->
-		<div>
+
+
+	<div class="wrapper">
 			<h1 class="headingspace">artist resume</h1>
 		
 			<p>Painting has been Liefje Smith&rsquo;s passion since childhood. It seems her career in the arts was pre-destined. She comes from a family of artists, sculptors and architects who served as early mentors. (Her name is Scandinavian and is pronounced Leaf-ya.) She followed the family art path and forged a career in design and interior architecture. Her many years of drawing and working with color and texture are a prominent influence in her work as a fine art painter.  She lived in Japan for several years, when her husband, a naval officer, was stationed there. In terms of her art, the experience was profound. &ldquo;My exposure to the contemporary artists of Japan greatly influenced my sense of color, design and clear vision of expression, and that is inherent in my work today,&rdquo; she says. </p>
@@ -135,15 +136,15 @@
 
 	</div>
 
-	<hr>
+	<!--<hr> causing issues-just remove, I'm not sure where to put clear fix-->	
 
 
 	<!--keep the contact email at the foot of the page-->
+	<div class="wrapper">
 		<footer>
 			<a href="mailto:liefysmithart@comcast.net?
 			subject=www.paintingsbyLiefje.com">liefysmithart@comcast.net</a>
-		</footer>
-	</section>	
+		</footer>	
 	</div>
 
 </body>
