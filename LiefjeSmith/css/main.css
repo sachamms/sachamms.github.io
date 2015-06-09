@@ -17,6 +17,7 @@ body {
 li{
 	list-style: disc;
 	color: #505050;
+	/* added margin-left: 1.25em; but it messed up nav li spacing, make class instead */
 }
 
 footer {
@@ -24,10 +25,20 @@ footer {
 	clear: both;
 	text-transform: uppercase;
 	text-align: right;
-	color: #A0A0A0; /* make lighter */
+	color: #B2B2B2; /* not changing?, overridden? */
 	float: right;
-	padding: 3em;
+	padding: 1em 0em;
 	/* create class or ID to change color? */
+}
+
+footer a {
+	color: #B2B2B2; /* not working ?? */
+	font-size: 15px; /* best way to make smaller than body text */
+}
+
+footer p {
+	color: #B2B2B2; 
+	font-size: 15px; 
 }
 
 header {
@@ -151,8 +162,16 @@ hr {
 }
 
 #wrapper{ /* doesn't work on statement page ??? */
-	width: 960px;
+	width: 910px;
 	margin: 0 auto;
+}
+
+.homepageintro {
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	color: #505050;
+	padding: 10em;
+/* is this correct */
 }
 
 
@@ -191,7 +210,7 @@ hr {
 
 .artiststatement {
 	float: right; /* ???????????? */
-	padding: 4em .5em;
+	padding: 4em 1em;
 	background: ;
 	width: 80%;
 }
@@ -215,11 +234,12 @@ hr {
 
 }
 
-.resumenobullets{
-	list-style: none;
-	/* I want bullet points on giclees page-I don't like the way bullet points on
-	resume page not lined up with heading. This class isn't working.
-*/
+.indentbullets {
+	margin-left: 1.25em;
+}
+
+
+	/* For indenting bullets */
 
 }
 
@@ -227,11 +247,5 @@ hr {
 
 
 
-/* I want bullet points on giclees page
-make separate class?*/
 
-
-/* create class with white text on gray 
-header background for all pages except 
-home page or vice versa*/
 
