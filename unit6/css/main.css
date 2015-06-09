@@ -10,6 +10,7 @@
 body {
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
+	line-height: 1.3em;
 
 }
 
@@ -101,4 +102,9 @@ section#one{
 	width: 33%;
 	padding: 2em;
 	float: left;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0em;
 }
