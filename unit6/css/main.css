@@ -10,8 +10,16 @@
 body {
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
-	line-height: 1.3em;
+	line-height: 1.4em;
+}
 
+header{
+	background-color: #69cbd9;
+}
+
+header img {
+ 	width: 250px; 
+ 	margin-left: 2em; /* ok ???? */
 }
 
 p {
@@ -22,68 +30,62 @@ h1{
 	text-transform: uppercase;
 	font-size: 1.6em;
 	color: white;
-	
 }
 
 h2 {
-	color: orange;
+	color: #505050;
 	font-size: 1.3em;
-
+	text-transform: uppercase;
 }
 
 h3 {
 	font-size: 2em;
-	color: orange;
+	color: #505050;
 	text-align: center;
-
 }
 
 footer {
 	color: black;
-	padding: 2em;
-
+	padding: 0em;
+	text-align: center;
 }
 
-ul {
+
+
+nav {
+	float: right;
+	letter-spacing: .03em;
+	font-size: 1.2em;
+}
+
+nav li {
+	float: left; /* ok ???? */
+	padding: 1em;
 	list-style: none;
 	color: white;
 }
 
-nav {
-	
+li{
+	margin-left: 1.25em;
 }
+
+
 
 a {
-    color: white;
+    color: #505050;
     text-decoration: none;
-
 }
 
-
-.navbar {
-		float: left; /* ???????????? */
-		width: 90%;
-		padding: 0em 0em 0 0em;
-		background-color: #65cbda;
-		color: white;
-		text-align: right;
-		/* change background color to gray or fun color that 
-		matches the painting */
-}
 
 .navli{
 	display: inline; /* worked */
 	letter-spacing: .02em;
 	color: white;
 	text-decoration: none;
+	float: left; /* ok ???? */
+	margin-right: 2em;
 }
 
-.logo {
-	float: left;
-	width: 10%;
-	padding: 0em 2em 0 0em;
-	
-}
 
 .clearfix:after {  
 	content: "."; 
@@ -93,18 +95,37 @@ a {
 	clear: both;
 }
 
-section#one{
+.lightteal{
 	background-color: #8bd7e1;
 	padding: 3em 2em 3em 2em;
+
 }
 
-#threecolumns{
+.threecolumns{
 	width: 33%;
 	padding: 2em;
 	float: left;
 }
 
-#wrapper {
-	width: 960px;
-	margin: 0em;
+.wrapper {
+	width: 900px;
+	margin: 0em 4em;
+}
+
+.white{
+	background-color: #FFFFFF;
+	padding: 3em 2em 3em 2em;
+}
+
+.contact{
+	color: #505050;
+	font-size: 6em;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+#loopimg{
+	padding: 4em 0em;
+
 }
