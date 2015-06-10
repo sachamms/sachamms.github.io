@@ -31,12 +31,14 @@ footer {
 }
 
 footer a {
+	font-family: 'Lato', Helvetica, sans-serif;
 	color: #B2B2B2; 
 	font-size: 15px; /* enter pixel size here rather than percentage */
 	line-height: 1em;
 }
 
 footer p {
+	font-family: 'Lato', Helvetica, sans-serif;
 	color: #B2B2B2; 
 	font-size: 15px;
 	line-height: 1em; 
