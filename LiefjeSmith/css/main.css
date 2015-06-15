@@ -8,42 +8,6 @@
 }
 /* Reset: sets padding and margin so not up to different browsers interpretation */
 
-body {
-	font-size: 17.5px;
-	background-color: white;
-	line-height: 1.3em;
-}
-
-li{
-	list-style: disc;
-	color: #505050;
-}
-
-footer {
-	font-family: 'Lato', Helvetica, sans-serif;
-	clear: both;
-	text-transform: uppercase;
-	text-align: right;
-	color: #B2B2B2; 
-	float: right;
-	padding: 1em 0em;
-	
-}
-
-footer a {
-	font-family: 'Lato', Helvetica, sans-serif;
-	color: #B2B2B2; 
-	font-size: 15px; /* enter pixel size here rather than percentage */
-	line-height: 1em;
-}
-
-footer p {
-	font-family: 'Lato', Helvetica, sans-serif;
-	color: #B2B2B2; 
-	font-size: 15px;
-	line-height: 1em; 
-}
-
 header {
 	font-family: 'Lato', Helvetica, sans-serif;
 	background-color: #FFFFFF;
@@ -73,11 +37,25 @@ nav ul {
 	margin: ;
 	padding: ; /* ??? */
 }
+
+body {
+	font-size: 17.5px;
+	background-color: white;
+	line-height: 1.3em;
+}
+
+li{
+	list-style: disc;
+	color: #505050;
+}
+
+
 figure {
 	width: 33%;
 	padding: 2em;
 	float: left;
 }
+
 figure img {
 	width:100%;	
 }
@@ -141,6 +119,30 @@ p {
 
 hr {
 	margin-top: 1em;
+}
+
+footer {
+	font-family: 'Lato', Helvetica, sans-serif;
+	clear: both;
+	text-transform: uppercase;
+	text-align: right;
+	color: #B2B2B2; 
+	float: right;
+	padding: 1em 0em;
+}
+
+footer a {
+	font-family: 'Lato', Helvetica, sans-serif;
+	color: #B2B2B2; 
+	font-size: 15px; /* enter pixel size here rather than percentage */
+	line-height: 1em;
+}
+
+footer p {
+	font-family: 'Lato', Helvetica, sans-serif;
+	color: #B2B2B2; 
+	font-size: 15px;
+	line-height: 1em; 
 }
 
 
@@ -217,7 +219,18 @@ hr {
 }
 
 .shortenlinelength {
-	width: 75%;
+	width: 70%;
+}
+
+/* not working on index page???-copied from Karina's site-made class
+instead of putting on footer so it won't affect other pages*/
+.footerindex {
+	background color: rgba(255,255,255,.8);
+	padding: 3em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 
