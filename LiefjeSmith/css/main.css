@@ -7,7 +7,11 @@
 	box-sizing: border-box;
 }
 /* Reset: sets padding and margin so not up to different browsers interpretation */
-
+body {
+	font-size: 17.5px;
+	background-color: white;
+	line-height: 1.3em;
+}
 header {
 	font-family: 'Lato', Helvetica, sans-serif;
 	background-color: #FFFFFF;
@@ -38,10 +42,28 @@ nav ul {
 	padding: ; /* ??? */
 }
 
-body {
-	font-size: 17.5px;
-	background-color: white;
-	line-height: 1.3em;
+footer {
+	font-family: 'Lato', Helvetica, sans-serif;
+	clear: both;
+	text-transform: uppercase;
+	text-align: right;
+	color: #B2B2B2; 
+	float: right;
+	padding: 1em 0em;
+}
+
+footer a {
+	font-family: 'Lato', Helvetica, sans-serif;
+	color: #B2B2B2; 
+	font-size: 15px; /* enter pixel size here rather than percentage */
+	line-height: 1em;
+}
+
+footer p {
+	font-family: 'Lato', Helvetica, sans-serif;
+	color: #B2B2B2; 
+	font-size: 15px;
+	line-height: 1em; 
 }
 
 li{
@@ -90,7 +112,7 @@ h1 {
 	font-style:;
 	letter-spacing:;
 	margin-top:; /* ??? */
-	}
+}
 
 h2 {
 	margin-top: 1em;
@@ -120,33 +142,6 @@ p {
 hr {
 	margin-top: 1em;
 }
-
-footer {
-	font-family: 'Lato', Helvetica, sans-serif;
-	clear: both;
-	text-transform: uppercase;
-	text-align: right;
-	color: #B2B2B2; 
-	float: right;
-	padding: 1em 0em;
-}
-
-footer a {
-	font-family: 'Lato', Helvetica, sans-serif;
-	color: #B2B2B2; 
-	font-size: 15px; /* enter pixel size here rather than percentage */
-	line-height: 1em;
-}
-
-footer p {
-	font-family: 'Lato', Helvetica, sans-serif;
-	color: #B2B2B2; 
-	font-size: 15px;
-	line-height: 1em; 
-}
-
-
-
 /* Put classes and IDs below here */
 #homePage {
 	background-image: url(../images/homebackground_discovery.jpg);
@@ -225,7 +220,7 @@ footer p {
 /* not working on index page???-copied from Karina's site-made class
 instead of putting on footer so it won't affect other pages*/
 .footerindex {
-	background color: rgba(255,255,255,.8);
+	background-color: rgba(255,255,255,.8);
 	padding: 3em;
 	position: absolute;
 	bottom: 0;
