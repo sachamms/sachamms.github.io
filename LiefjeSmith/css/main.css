@@ -56,14 +56,14 @@ footer a {
 	font-family: 'Lato', Helvetica, sans-serif;
 	color: #B2B2B2; 
 	font-size: 15px; /* enter pixel size here rather than percentage */
-	line-height: 1em;
+	line-height: 1.2em;
 }
 
 footer p {
 	font-family: 'Lato', Helvetica, sans-serif;
 	color: #B2B2B2; 
 	font-size: 15px;
-	line-height: 1em; 
+	line-height: 1.2em; 
 }
 
 li{
@@ -151,8 +151,8 @@ hr {
 	/* ../ for escaping CSS folder */
 }
 
-.wrapper{ /* doesn't work on statement page ??? */
-	width: 910px; /* ok? i like this width, should be 1200px? */
+.wrapper{ 
+	max-width: 1200px; /* or 960px; 1200px standard */
 	margin: 0 auto;
 } /* make wrapper a class */
 
@@ -160,6 +160,7 @@ hr {
 .homepageintro {
 	background-color: rgba(255, 255, 255, 0.7);
 	color: #505050;
+	border-radius: 10px;
 	padding: 3em 2em 2em 2em; /* why isn't the text centered vertically? */
 	width: 32em; /* 26em-based have of width (910px) divided by body font size (17px) */
 	margin: 10em auto;
@@ -183,6 +184,7 @@ hr {
 .statementbiopic {
 	float: left;
 	width: 20%;
+	height: 20%;
 	padding: 1em;
 }
 
@@ -190,7 +192,7 @@ hr {
 	float: left; /* ???????????? */
 	padding: 0em;
 	background: ;
-	width: 70%;
+	
 }
 
 .clearfix:after {  
@@ -204,18 +206,18 @@ hr {
 /* attach a clearfix to any parent element whose children are floated*/
 
 
-.archivecolumns{
+/* .archivecolumns{
 	width: 50%;
 	padding: 4em;
 	float: left;
-}
+}   TOOK OUT */
 
 .indentbullets {
 	margin-left: 1.25em;
 }
 
 .shortenlinelength {
-	width: 70%;
+	width: 50%;
 }
 
 .footerindex {
@@ -225,6 +227,13 @@ hr {
 	bottom: 0;
 	left: 0;
 	right: 0;
+}
+
+.resumepageimage{
+	align: center;
+	width: 75%;
+	margin-bottom: 1em;
+
 }
 
 /* alt color- background-color: rgba(255,255,255,.8); */
