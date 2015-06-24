@@ -1,9 +1,87 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,700,900&subset=latin,latin-ext);
 
-* {
-	margin: 0;
-	padding: 0; 
-	box-sizing: border-box;
+@media only screen and (max-width:945px) {
+
+	/* UNIVERSAL CHANGES */
+	/* make nav bar a hamburger menu */
+
+	figure {
+	width: 50%;
+	padding: 3em;
+	float: left;
 }
-/* Reset: sets padding and margin so not up to different browsers interpretation */
+
+figure img {
+	width:100%;	
+}
+
+h1 { /* why is heading higher on statement page??? */
+		margin-bottom: .6em;
+		font-weight: 700; 
+		line-height: 0em;
+		color: #B2B2B2;
+		font-size: 3em;
+		padding: 0em 0em 0em 0em;
+	}
+
+/* it's 100 percent of parent, which is 33% of Div set at 910 px */
+
+
+	#homePage { /* make intro paragraph and transparent 
+		box on home page disappear for tablet and mobile version
+		-not working, what's wrong???*/
+		display: none;
+	}
+
+	.statementbiopic { /*remove bio picture for tablet and mobile version*/
+	display: none;
+	float: none;
+	/* or add
+	float: none;
+	width: 90%;
+	padding: 1em;*/
+	}
+
+	.artiststatement {
+	float: none; /* ???????????? */
+	width:100%;
+	padding: 0em 2em 1em 0em;
+
+	}
+
+	/* need better formatting on h1 and p tags....h1 tag indenting too much*/
+
+
+	.resumepageimage {
+		width: 100%;
+	}
+
+	.wrapper{ 
+	max-width: 800px; /* or 960px; 1200px standard */
+	margin: 0 auto;
+	} 
+
+	.shortenlinelength {
+	width: 67%;
+}
+
+
+}
+
+@media only screen and (max-width:590px) {
+	body {
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+	figure {
+	width: 100%;
+	padding: 2.7em;
+	float: none; 
+}
+
+figure img {
+	width:100%;	
+}
+
+
+}

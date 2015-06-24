@@ -63,7 +63,8 @@ footer p {
 	font-family: 'Lato', Helvetica, sans-serif;
 	color: #B2B2B2; 
 	font-size: 15px;
-	line-height: 1.2em; 
+	line-height: 1.2em;
+	margin-right: 2em; 
 }
 
 li{
@@ -109,6 +110,8 @@ h1 {
 	font-size: 3em;
 	line-height: 1em;
 	color: #B2B2B2;
+	margin-left: .25em;
+	
 	font-weight:;
 	font-style:;
 	letter-spacing:;
@@ -123,6 +126,10 @@ h2 {
 	text-transform: uppercase;
 	color: #A0A0A0;
 	font-size: 1.5em;
+	margin-left: .6em;
+	
+	same padding */
+
 } /* ??? */
 
 h3 {
@@ -130,6 +137,8 @@ h3 {
 	font-weight: 700;
 	font-size: 1em;
 	color: #505050;
+	margin-left: 1em;
+	
 } /* ??? */
 
 p {
@@ -138,10 +147,13 @@ p {
 	line-height: 1.3em;
 	font-size: 1em;
 	color: #505050;
+	margin-left: 1em;
+	
 } /* ??? */
 
 hr {
 	margin-top: 1em;
+	
 }
 /* Put classes and IDs below here */
 #homePage {
@@ -186,7 +198,7 @@ hr {
 	float: left;
 	width: 20%;
 	height: 20%;
-	padding: 1em;
+	padding: 1em 0em 0em 1em;
 }
 
 .artiststatement {
@@ -214,12 +226,12 @@ hr {
 }   TOOK OUT */
 
 .indentbullets {
-	margin-left: 1.25em;
+	margin-left: 2em;
 	font-family:'Alegreya','Times New Roman' serif;
 }
 
 .shortenlinelength {
-	width: 50%;
+	width: 47.3%;
 }
 
 .footerindex {
@@ -235,6 +247,7 @@ hr {
 	align: center;
 	width: 75%;
 	margin-bottom: 1em;
+	margin-left: 1em;
 
 }
 
