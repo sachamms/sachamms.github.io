@@ -71,17 +71,21 @@ h1 { /* why is heading higher on statement page??? */
 	body {
 	font-size: 16px;
 	line-height: 1.3em;
-}
+	}
 
 	figure {
 	width: 100%;
 	padding: 2.7em;
 	float: none; 
-}
+	}
 
-figure img {
+	figure img {
 	width:100%;	
-}
+	}
+
+	.resumepageimage {
+		display: none;
+	}
 
 
 }
