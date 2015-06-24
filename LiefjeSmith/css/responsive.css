@@ -83,7 +83,7 @@ h1 { /* why is heading higher on statement page??? */
 	width:100%;	
 	}
 
-	.resumepageimage {
+	.resumepageimage { /* not working */
 		display: none;
 	}
 
