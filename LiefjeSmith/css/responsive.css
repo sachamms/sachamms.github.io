@@ -20,7 +20,6 @@
 		font-size: 2.5em;
 		margin-bottom: .5em;
 		font-weight: 700; 
-		line-height: .05em;
 		color: #B2B2B2;
 		font-size: 3em;
 		padding: 0em 0em 0em 0em;
@@ -76,7 +75,6 @@
 	/* make nav bar a hamburger menu */
 	body {
 	font-size: 16px;
-	line-height: 1.3em;
 	}
 
 	figure {
@@ -94,7 +92,6 @@
 	h1 { /* why is heading higher on statement page??? */
 		margin-bottom: .6em;
 		font-weight: 700; 
-		line-height: 0em;
 		color: #B2B2B2;
 		font-size: 3em;
 		padding: 0em 0em 0em 0em;

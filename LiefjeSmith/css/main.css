@@ -10,7 +10,6 @@
 body {
 	font-size: 17.5px;
 	background-color: white;
-	line-height: 1.3em;
 }
 header {
 	font-family: 'Lato', Helvetica, sans-serif;
@@ -28,7 +27,6 @@ header {
 nav {
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 400; 
-	line-height: 1.5em;
 	letter-spacing: .03em;
 	color: #A0A0A0;
 	text-transform: uppercase;
@@ -57,7 +55,6 @@ footer a {
 	font-family: 'Lato', Helvetica, sans-serif;
 	color: #B2B2B2; 
 	font-size: 15px; /* enter pixel size here rather than percentage */
-	line-height: 1.2em;
 }
 
 footer p {
@@ -109,11 +106,8 @@ h1 {
 	margin-bottom: .1em;
 	font-weight: 700; 
 	font-size: 3em;
-	line-height: 1em;
 	color: #B2B2B2;
 	margin-left: .25em;
-	line-height: 1.3em;
-	
 	font-weight:;
 	font-style:;
 	letter-spacing:;
@@ -124,15 +118,10 @@ h2 {
 	margin-top: 1em;
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 400; 
-	line-height: 1.5em;
 	text-transform: uppercase;
 	color: #A0A0A0;
 	font-size: 1.5em;
 	margin-left: .6em;
-	line-height: 1.3em;
-	
-	same padding */
-
 } /* ??? */
 
 h3 {
@@ -141,7 +130,7 @@ h3 {
 	font-size: 1em;
 	color: #505050;
 	margin-left: 1em;
-	line-height: 1.3em;
+	
 	
 } /* ??? */
 
@@ -153,7 +142,6 @@ p {
 	color: #505050;
 	margin-left: 1em;
 	margin-right: 1em;
-	letter-spacing: 0em;
 
 	} /* ??? */
 
@@ -217,7 +205,6 @@ hr {
 	float: left; /* ???????????? */
 	padding: 0em;
 	letter-spacing: .007em;
-	line-height: 1.25em;
 	background: ;
 	width: ; 
 }
