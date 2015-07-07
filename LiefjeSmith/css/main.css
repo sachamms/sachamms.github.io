@@ -180,7 +180,7 @@ hr {
 	text-align: center;
 	font-size: 1.2em;
 	position: absolute;
-	top:50%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	/* there are a lof of different things 
@@ -204,7 +204,6 @@ hr {
 .statementbiopic {
 	float: left;
 	width: 20%;
-	height: 20%;
 	padding: 1em 0em 0em 1em;
 }
 
@@ -258,6 +257,10 @@ hr {
 	margin-bottom: 1em;
 	margin-left: 1em;
 
+}
+
+.moveright {
+	margin-left: 10em;
 }
 
 /* alt color- background-color: rgba(255,255,255,.8); */

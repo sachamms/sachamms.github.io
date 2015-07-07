@@ -18,12 +18,13 @@
 	/* it's 100 percent of parent, which is 50% of Div*/
 
 
-	h1 { /* why is heading higher on statement page??? */
+	h1 { /* ?? */
 		color: #B2B2B2;
 		font-size: 3em;
 		font-weight: 700;
 		padding: 0em 0em 0em 0em;
  		margin-bottom: .5em;
+ 		line-height: .9em ;
 	}
 
 	#homePage { /*ADD IMAGE*/
@@ -38,17 +39,16 @@
 		display: none;
 	}
 
-	.statementbiopic { /*ADJUST*/
+	.statementbiopic { /*????*/
 		float: left;
-		height: 20%;
-		padding: 1em 0em 0em 1em;
-		width: 20%;
+		padding: 0em 1em 0em 1em;
+		width: 35%;
 	}
 
 	.artiststatement {
-		float: none; /* get rid of "painting" orphan */
+		float: none; /* ????? */
 		width:100%;
-		padding: 0em 2em 1em 0em;
+		padding: 0em;
 	}
 
 	.resumepageimage {
@@ -61,7 +61,8 @@
 	} 
 
 	.shortenlinelength {
-		width: 67%;
+		width: 80%;
+		padding-right: 1em;
 	}
 
 
@@ -86,12 +87,13 @@
 	/* it's 100 percent of parent, which is 100% of Div*/
 
 
-	h1 { /* why is heading higher on statement page??? */
+	h1 { /* ??? */
 		color: #B2B2B2;
 		font-size: 3em;
 		font-weight: 700;
 		margin-bottom: .6em;
 		padding: 0em 0em 0em 0em;
+		line-height: .9em ;
 	}
 
 	#homePage {/*ADD IMAGE*/
@@ -102,11 +104,11 @@
 	}
 
 	.homepageintro { /* make intro paragraph and transparent 
-		box on home page disappear for tablet and mobile version*/
+		box on home page disappear for tablet and mobile version-DONE*/
 		display: none;
 	}
 
-	.statementbiopic { /*ADJUST*/
+	.statementbiopic { /*????*/
 		float: none;
 		padding: 1em;
 		width: 100%;
@@ -116,8 +118,10 @@
 
 	.artiststatement {
 		float: none; /* ???????????? */
-		padding: 0em 2em 1em 0em;
+		padding: 0em;
 		width:100%;
+		padding-right: 2.8em;
+		line-height
 	}
 
 	.resumepageimage { 
@@ -130,10 +134,7 @@
 
 	} 
 
-	.shortenlinelength {
-		width: 67%;
-	}
-
+	
 
 }
 
