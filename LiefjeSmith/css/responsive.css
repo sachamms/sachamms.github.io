@@ -27,6 +27,20 @@
  		line-height: .9em ;
 	}
 
+	/* CORRECT ???-this code is for turning off nav menu and adds 
+	hamburder menu and vice versa ??? */
+	nav {
+		display: none;
+
+	}
+
+	.mobile-nav{
+	display: block;
+	}
+
+	/* switch of menu type-END*/
+
+
 	#homePage { /*ADD IMAGE*/
 		background-image: url(../images/homebackground_discovery_945.jpg);
 		/*change image and link to a more vertical version of the image-DONE */
@@ -95,6 +109,19 @@
 		padding: 0em 0em 0em 0em;
 		line-height: .9em ;
 	}
+
+	/* CORRECT ???-this code is for turning off nav menu and adds 
+	hamburder menu and vice versa ??? */
+	nav {
+		display: none;
+
+	}
+
+	.mobile-nav{
+	display: block;
+	}
+
+	/* switch of menu type-END*/
 
 	#homePage {/*ADD IMAGE*/
 		background-image: url(../images/homebackground_discovery_590.jpg);

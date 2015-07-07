@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!--code for hamburger menu-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+	<!--end -->
+
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
@@ -33,7 +37,27 @@
 				<li class="navli"><a href="giclees.html#giclees">Giclees</a></li>
 			</ul>
 		</nav>
-			<!--add hambuger menu for when browser too narrow -->
+<!--hambuger menu code starts here  -->
+			<div class="mobile-nav">
+     			<div class="menu-btn" id="menu-btn">
+					<div></div>
+						<span></span>
+						<span></span>
+						<span></span>
+     			</div>
+ 
+     		<div class="responsive-menu">
+        			<ul>
+           				<li><a href="statement.html">Statement</a></li>
+          				<li><a href="resume.html">Resume</a></li>
+          				<li><a href="newwork.html#newwork">New Work</a></li>
+          				<li><a href="archives.html#archives">Archives</a></li>
+          				<li><a href="giclees.html#giclees">Giclees</a></li>
+        			</ul>
+     		</div>
+	</div>
+<!--end hambuger menu -->
+
 	</div>
 </header>
 
@@ -58,6 +82,16 @@
 		</footer>
 		
 	</div>
+
+	<!--code for hamburger menu -add this code to every page -->
+	<script type="text/javascript">
+		jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+	</script>
+	<!--end -->
 
 </body>
 
