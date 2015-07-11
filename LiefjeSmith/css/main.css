@@ -9,33 +9,33 @@
 /* Reset: sets padding and margin so not up to 
 different browsers interpretation */
 
-/* put CSS properties in alphabetical order*/
+/* put CSS properties in alphabetical order-DONE*/
 
 body {
-	font-size: 17.5px;
 	background-color: white;
+	font-size: 17.5px;
 }
 header {
-	font-family: 'Lato', Helvetica, sans-serif;
 	background-color: #FFFFFF;
+	font-family: 'Lato', Helvetica, sans-serif;
 	margin-bottom: 3em; 
 
 } /* put the background color for the navigation menu 
 	and logo, under header tag */
 
  header img {
- 	width: 250px; 
  	margin-left: 2em; /* ok ???? */
+ 	width: 250px; 
  }
 
 nav {
-	font-family: 'Lato', Helvetica, sans-serif;
-	font-weight: 400; 
-	letter-spacing: .03em;
 	color: #A0A0A0;
-	text-transform: uppercase;
+	font-family: 'Lato', Helvetica, sans-serif;
 	font-size: 2em;
+	font-weight: 400; 
 	float: right; /* float nav right */
+	letter-spacing: .03em;
+	text-transform: uppercase;
 }
 
 nav ul {
@@ -46,40 +46,40 @@ nav ul {
 }
 
 footer {
-	font-family: 'Lato', Helvetica, sans-serif;
 	clear: both;
-	text-transform: uppercase;
+	color: #B2B2B2;
+	font-family: 'Lato', Helvetica, sans-serif;
+ 	float: right;
+ 	padding: 1em 0em;
 	text-align: right;
-	color: #B2B2B2; 
-	float: right;
-	padding: 1em 0em;
+	text-transform: uppercase;
 }
 
 footer a {
-	font-family: 'Lato', Helvetica, sans-serif;
 	color: #B2B2B2; 
+	font-family: 'Lato', Helvetica, sans-serif;
 	font-size: 15px; /* enter pixel size here rather than percentage
 	-change to em? */
 }
 
 footer p {
-	font-family: 'Lato', Helvetica, sans-serif;
 	color: #B2B2B2; 
+	font-family: 'Lato', Helvetica, sans-serif;
 	font-size: 15px;
 	line-height: 1.2em;
 	margin-right: 2em; 
 }
 
 li{
-	list-style: disc;
 	color: #505050;
+	list-style: disc;
 }
 
 
 figure {
-	width: 33%;
-	padding: 2em;
 	float: left;
+	padding: 2em;
+	width: 33%;
 }
 
 figure img {
@@ -106,48 +106,43 @@ a:hover {
 
 
 h1 {
-	font-family: 'Lato', Helvetica, sans-serif;
-	margin-bottom: .1em;
-	font-weight: 700; 
-	font-size: 3em;
 	color: #B2B2B2;
-	margin-left: .25em;
-	font-weight:;
-	font-style:;
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: 700; 
 	letter-spacing:;
+	margin-bottom: .1em;
+	margin-left: .25em;
 	margin-top:; /* ??? */
 }
 
 h2 {
-	margin-top: 1em;
+	color: #A0A0A0;
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 400; 
-	text-transform: uppercase;
-	color: #A0A0A0;
 	font-size: 1.5em;
 	margin-left: .6em;
+	margin-top: 1em;
+	text-transform: uppercase;
 } /* ??? */
 
 h3 {
-	font-family: 'Lato', Helvetica, sans-serif;
-	font-weight: 700;
-	font-size: 1em;
 	color: #505050;
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 700;
 	margin-left: 1em;
-	
-	
 } /* ??? */
 
 p {
-	font-family:'Alegreya','Times New Roman' serif;
-	margin-bottom: 1em;
-	line-height: 1.3em;
-	font-size: 1em;
 	color: #505050;
+	font-family:'Alegreya','Times New Roman' serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	margin-bottom: 1em;
 	margin-left: 1em;
 	margin-right: 1em;
-
-	} /* ??? */
+} /* ??? */
 
 hr {
 	margin-top: 1em;
@@ -156,71 +151,69 @@ hr {
 /* Put classes and IDs below here */
 #homePage {
 	background-image: url(../images/homebackground_discovery.jpg);
-	background-size: cover;
 	background-repeat:no-repeat;
+	background-size: cover;
 	/* ???-fix CSS so paintings always fills browser at bottom */
 	/* ../ for escaping CSS folder */
 }
 
 .wrapper{ 
-	max-width: 1200px; /* or 960px; 1200px standard */
 	margin: 0 auto;
+	max-width: 1200px; /* or 960px; 1200px standard */
 } /* make wrapper a class */
 
 
 .homepageintro {
 	background-color: rgba(255, 255, 255, 0.7);
-	color: #505050;
-	letter-spacing: .007em;
 	border-radius: 10px;
+	color: #505050;
+	font-size: 1.2em;
+	letter-spacing: .007em;
 	padding: 3em 2em 2em 2em; /* why isn't the text centered 
 	vertically? */
-	width: 32em; /* 26em-based half of width 
-	(910px) divided by body font size (17px) */
-	text-align: center;
-	font-size: 1.2em;
 	position: absolute;
+	text-align: center;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	/* there are a lof of different things 
 	that you can do with "transform" */
+	width: 32em; /* 26em-based half of width 
+	(910px) divided by body font size (17px) */
 }
 
 
 .navli{
+	color: white;
 	display: inline; /* worked */
 	letter-spacing: .02em;
-	color: white;
 }
 
 .navbar{
-		padding: 3em 2em;
-		font-size: 1em;
-		letter-spacing: 1em;
+	font-size: 1em;
+	padding: 3em 2em;
+	letter-spacing: 1em;
 }
 
 
 .statementbiopic {
 	float: left;
-	width: 20%;
 	padding: 1em 0em 0em 1em;
+	width: 20%;
 }
 
 .artiststatement {
 	float: left; /* ???????????? */
-	padding: 0em;
 	letter-spacing: .007em;
-	background: ;
-	width: ; 
+	padding: 0em;
 }
 
 .clearfix:after {  
 	content: " "; 
-	visibility: hidden; 
+	clear: both;
 	display: block; 
 	height: 0; 
-	clear: both;
+	visibility: hidden; 
 }
 /* class="clear fix" in html; class="clearfix:after" in CSS*/
 /* attach a clearfix to any parent element whose children are floated*/
@@ -233,13 +226,13 @@ hr {
 }   TOOK OUT */
 
 .indentbullets {
-	margin-left: 2em;
 	font-family:'Alegreya','Times New Roman' serif;
+	margin-left: 2em;
 }
 
 .shortenlinelength {
-	width: 47.3%;
 	margin-right: 1em; /* right margin space not working properly-??? */
+	width: 47.3%;
 }
 
 .footerindex {
@@ -253,14 +246,13 @@ hr {
 
 .resumepageimage{
 	align: center;
-	width: 75%;
 	margin-bottom: 1em;
 	margin-left: 1em;
-
+	width: 75%;
 }
 
 .moveright {
-	margin-left: 10em;
+	margin-left: 25em;
 }
 
 /* copied code from 
@@ -268,41 +260,43 @@ https://www.internetkultur.at/simple-hamburger-drop-down-menu-with-css-and-jquer
 for hamburger menu */
 
 .menu-btn div {
-position: absolute;
-left: 100%;
-top: 64%;
-padding-right: 8px;
-margin-top: -0.50em;
-line-height: 1.2;
-font-size: 18px;
-font-weight: 200;
-vertical-align: middle;
-z-index: 99;
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
 }
  
 .menu-btn span {
-display: block;
-width: 19px;
-height: 3px;
-margin: 4px 0;
-background: rgb(0,0,0);
-z-index: 99;
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(0,0,0);
+	z-index: 99;
 }
  
 .responsive-menu{
-display: none;
+	display: none;
 }
  
 .expand {
-display: block !important;
+	display: block !important;
 }
 
-/* CORRECT ???-this code is for turning off nav menu and adds 
-hamburder menu and vice versa ??? */
+/* -this code is for turning off nav menu and adds 
+hamburder menu and vice versa */
 
 .mobile-nav{
 	display: none;
 }
+
+
 
 
 

@@ -1,4 +1,62 @@
 
+@media only screen and (max-width:1623px) {
+	
+	.moveright {
+		margin-left: 15em;
+	}
+
+/* settings for hamburger menu */
+	.mobile-nav{
+	float: right
+}
+
+
+
+/* not working 
+	:color: #A0A0A0;
+	padding: ;  */
+
+@media only screen and (max-width:1364px) {
+	
+	.moveright {
+		margin-left: 8em;
+	}
+
+
+
+@media only screen and (max-width:969px) {
+	
+	.moveright {
+		margin-left: 2em;
+	}
+	.shortenlinelength {
+		width: 85%;
+		padding-right: .2em;
+	}
+	h1 { /* ?? */
+		color: #B2B2B2;
+		font-size: 3em;
+		font-weight: 700;
+		padding: 0em 0em 0em 0em;
+ 		margin-bottom: 0em;
+ 		line-height: .9em ;
+	}
+
+	.statementbiopic { /*????*/
+		float: left;
+		padding: 0em 1em 0em 1em;
+		width: 25%;
+	}
+
+	.artiststatement {
+		float: none; /* ????? */
+		width:75%;
+		padding: 0em;
+	}
+}
+
+
+
 @media only screen and (max-width:945px) {
 
 	/* UNIVERSAL CHANGES */
@@ -23,7 +81,7 @@
 		font-size: 3em;
 		font-weight: 700;
 		padding: 0em 0em 0em 0em;
- 		margin-bottom: .5em;
+ 		margin-bottom: .3em;
  		line-height: .9em ;
 	}
 
@@ -75,12 +133,13 @@
 	} 
 
 	.shortenlinelength {
-		width: 80%;
-		padding-right: 1em;
+		width: 90%;
+		padding-right: .2em;
 	}
 
 
 }
+
 
 @media only screen and (max-width:590px) {
 	/* UNIVERSAL CHANGES */
@@ -103,10 +162,10 @@
 
 	h1 { /* ??? */
 		color: #B2B2B2;
-		font-size: 3em;
+		font-size: 4em;
 		font-weight: 700;
-		margin-bottom: .6em;
-		padding: 0em 0em 0em 0em;
+		margin-bottom: .3em;
+		padding-right: .2em;
 		line-height: .9em ;
 	}
 
@@ -138,7 +197,7 @@
 	.statementbiopic { /*????*/
 		float: none;
 		padding: 1em;
-		width: 100%;
+		width: 90%;
 		/* or remove bio picture for tablet and 
 		mobile version- display: none;*/
 	}
@@ -160,6 +219,10 @@
 		max-width: 800px; /* or 960px; 1200px standard */
 
 	} 
+	.shortenlinelength {
+		width: 85%;
+		padding-right: .2em;
+	}
 
 	
 
