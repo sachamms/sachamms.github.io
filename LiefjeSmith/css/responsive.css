@@ -7,8 +7,34 @@
 
 /* settings for hamburger menu */
 	.mobile-nav{
-	float: right
-}
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
 
 
 
@@ -22,10 +48,73 @@
 		margin-left: 8em;
 	}
 
+	/* settings for hamburger menu */
+	.mobile-nav{
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
+
 
 
 @media only screen and (max-width:969px) {
 	
+	/* settings for hamburger menu */
+	.mobile-nav{
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
+
+
 	.moveright {
 		margin-left: 2em;
 	}
@@ -44,7 +133,7 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 0em 1em 0em 1em;
+		padding: 0em 1em 4em 1em;
 		width: 25%;
 	}
 
@@ -63,6 +152,37 @@
 	/* make nav bar a hamburger menu */
 	/* put CSS properties in alphabetical order-DONE */
 
+
+/* settings for hamburger menu */
+	.mobile-nav{
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
 
 	figure {
 		float: left;
@@ -114,7 +234,7 @@
 	.statementbiopic { /*????*/
 		float: left;
 		padding: 0em 1em 0em 1em;
-		width: 35%;
+		width: 25%;
 	}
 
 	.artiststatement {
@@ -129,7 +249,6 @@
 
 	.wrapper{ 
 		margin: 0 auto;
-		max-width: 770px; /* ???????? */
 	} 
 
 	.shortenlinelength {
@@ -144,6 +263,41 @@
 @media only screen and (max-width:590px) {
 	/* UNIVERSAL CHANGES */
 	/* make nav bar a hamburger menu */
+	
+	/* settings for hamburger menu */
+	.mobile-nav{
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
+
+
+
+
 	body {
 		font-size: 16px;
 	}
@@ -162,7 +316,7 @@
 
 	h1 { /* ??? */
 		color: #B2B2B2;
-		font-size: 4em;
+		font-size: 3em;
 		font-weight: 700;
 		margin-bottom: .3em;
 		padding-right: .2em;
@@ -196,7 +350,7 @@
 
 	.statementbiopic { /*????*/
 		float: none;
-		padding: 1em;
+		padding: .5em 1em;
 		width: 90%;
 		/* or remove bio picture for tablet and 
 		mobile version- display: none;*/

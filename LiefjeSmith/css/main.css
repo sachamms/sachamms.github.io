@@ -171,15 +171,16 @@ hr {
 	letter-spacing: .007em;
 	padding: 3em 2em 2em 2em; /* why isn't the text centered 
 	vertically? */
-	position: absolute;
 	text-align: center;
+	width: 32em; /* 26em-based half of width 
+	(910px) divided by body font size (17px) */
+
+	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	/* there are a lof of different things 
 	that you can do with "transform" */
-	width: 32em; /* 26em-based half of width 
-	(910px) divided by body font size (17px) */
 }
 
 
