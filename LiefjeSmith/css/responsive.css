@@ -119,7 +119,7 @@
 		margin-left: 2em;
 	}
 	.shortenlinelength {
-		width: 85%;
+		width: 80%;
 		padding-right: .2em;
 	}
 	h1 { /* ?? */
@@ -133,7 +133,7 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 0em 1em 4em 1em;
+		padding: 0em 1em 2em 1em;
 		width: 25%;
 	}
 
@@ -328,6 +328,12 @@
 	nav {
 		display: none;
 
+	}
+
+	/* is the size of the logo causing spacing issues
+	when site is viewed on mobile phone???-FIX */
+	img src {
+		width: 50%;
 	}
 
 	.mobile-nav{
