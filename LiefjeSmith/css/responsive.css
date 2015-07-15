@@ -332,9 +332,10 @@
 
 	/* is the size of the logo causing spacing issues
 	when site is viewed on mobile phone???-FIX */
-	img src {
-		width: 50%;
-	}
+	 header img {
+ 		margin-left: 2em;
+ 		width: 175px; 
+ 	}
 
 	.mobile-nav{
 	display: block;
