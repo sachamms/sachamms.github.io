@@ -331,7 +331,7 @@
 	}
 
 	/* is the size of the logo causing spacing issues
-	when site is viewed on mobile phone???-FIX */
+	when site is viewed on mobile phone-YES-this fixed problem */
 	 header img {
  		margin-left: 2em;
  		width: 175px; 
