@@ -35,6 +35,7 @@
 		padding-left: 2em;
 	}
 /* end settings for hamburger menu */
+}
 
 
 
@@ -79,11 +80,74 @@
 	}
 /* end settings for hamburger menu */
 
+@media only screen and (max-width:1010px) {
+	
+	.shortenlinelength {
+		width: 85%;
+		padding-right: .2em;
+	}
+
+	.resumepageimage{
+	align: center;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	width: 85%;
+	}
+
+	.moveright {
+		margin-left: 8em;
+	}
+
+	/* settings for hamburger menu */
+	.mobile-nav{
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
+}
+
 
 
 @media only screen and (max-width:969px) {
+	.shortenlinelength {
+		width: 85%;
+		padding-right: .2em;
+	}
+
+	.resumepageimage{
+	align: center;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	width: 85%;
+	}
 	
-	/* settings for hamburger menu */
+/* settings for hamburger menu */
 	.mobile-nav{
 		float: right
 	}
@@ -122,6 +186,7 @@
 		width: 80%;
 		padding-right: .2em;
 	}
+
 	h1 { /* ?? */
 		color: #B2B2B2;
 		font-size: 3em;
@@ -133,8 +198,8 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 0em 1em 2em 1em;
-		width: 25%;
+		padding: 1em 1em 0em 1em;
+		width: 20%;
 	}
 
 	.artiststatement {
@@ -149,12 +214,23 @@
 @media only screen and (max-width:945px) {
 
 	/* UNIVERSAL CHANGES */
-	/* make nav bar a hamburger menu */
 	/* put CSS properties in alphabetical order-DONE */
+	.shortenlinelength {
+		width: 85%;
+		padding-right: .2em;
+	}
+
+	.resumepageimage {
+	align: center;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	width: 85%;
+	}
 
 
 /* settings for hamburger menu */
-	.mobile-nav{
+	.mobile-nav {
 		float: right
 	}
 
@@ -233,8 +309,8 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 0em 1em 0em 1em;
-		width: 25%;
+		padding: 1em 1em 0em 1em;
+		width: 24%;
 	}
 
 	.artiststatement {
@@ -258,6 +334,465 @@
 
 
 }
+
+@media only screen and (max-width:885px) {
+
+	/* UNIVERSAL CHANGES */
+	/* put CSS properties in alphabetical order-DONE */
+
+
+/* settings for hamburger menu */
+	.mobile-nav {
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
+
+	figure {
+		float: left;
+		padding: 3em;
+		width: 50%;
+	}
+
+	figure img {
+		width:100%;	
+	}
+	/* it's 100 percent of parent, which is 50% of Div*/
+
+
+	h1 { /* ?? */
+		color: #B2B2B2;
+		font-size: 3em;
+		font-weight: 700;
+		padding: 0em 0em 0em 0em;
+ 		margin-bottom: .3em;
+ 		line-height: .9em ;
+	}
+
+	/* CORRECT ???-this code is for turning off nav menu and adds 
+	hamburder menu and vice versa ??? */
+	nav {
+		display: none;
+
+	}
+
+	.mobile-nav{
+	display: block;
+	}
+
+	/* switch of menu type-END*/
+
+
+	#homePage { /*ADD IMAGE*/
+		background-image: url(../images/homebackground_discovery_945.jpg);
+		/*change image and link to a more vertical version of the image-DONE */
+		height:;
+	}
+
+
+	.homepageintro { /* make intro paragraph and transparent 
+		box on home page disappear for tablet and mobile version-DONE */
+		display: none;
+	}
+
+	.statementbiopic { /*????*/
+		float: left;
+		padding: 1em 1em 2em 1em;
+		width: 24%;
+	}
+
+	.artiststatement {
+		float: none; /* ????? */
+		width:100%;
+		padding: 0em;
+	}
+
+	.resumepageimage {
+		width: 100%;
+	}
+
+	.wrapper{ 
+		margin: 0 auto;
+	} 
+
+	.shortenlinelength {
+		width: 90%;
+		padding-right: .2em;
+	}
+
+
+}
+
+@media only screen and (max-width: 831px) {
+
+	/* UNIVERSAL CHANGES */
+	/* put CSS properties in alphabetical order-DONE */
+
+
+/* settings for hamburger menu */
+	.mobile-nav {
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
+
+	figure {
+		float: left;
+		padding: 3em;
+		width: 50%;
+	}
+
+	figure img {
+		width:100%;	
+	}
+	/* it's 100 percent of parent, which is 50% of Div*/
+
+
+	h1 { /* ?? */
+		color: #B2B2B2;
+		font-size: 3em;
+		font-weight: 700;
+		padding: 0em 0em 0em 0em;
+ 		margin-bottom: .3em;
+ 		line-height: .9em ;
+	}
+
+	/* CORRECT ???-this code is for turning off nav menu and adds 
+	hamburder menu and vice versa ??? */
+	nav {
+		display: none;
+
+	}
+
+	.mobile-nav{
+	display: block;
+	}
+
+	/* switch of menu type-END*/
+
+
+	#homePage { /*ADD IMAGE*/
+		background-image: url(../images/homebackground_discovery_945.jpg);
+		/*change image and link to a more vertical version of the image-DONE */
+		height:;
+	}
+
+
+	.homepageintro { /* make intro paragraph and transparent 
+		box on home page disappear for tablet and mobile version-DONE */
+		display: none;
+	}
+
+	.statementbiopic { /*????*/
+		float: left;
+		padding: 1em 1em 4em 1em;
+		width: 24%;
+	}
+
+	.artiststatement {
+		float: none; /* ????? */
+		width:100%;
+		padding: 0em;
+	}
+
+	.resumepageimage {
+		width: 100%;
+	}
+
+	.wrapper{ 
+		margin: 0 auto;
+	} 
+
+	.shortenlinelength {
+		width: 90%;
+		padding-right: .2em;
+	}
+
+
+}
+
+@media only screen and (max-width: 776px) {
+
+	/* UNIVERSAL CHANGES */
+	/* put CSS properties in alphabetical order-DONE */
+
+
+/* settings for hamburger menu */
+	.mobile-nav {
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
+
+	figure {
+		float: left;
+		padding: 3em;
+		width: 50%;
+	}
+
+	figure img {
+		width:100%;	
+	}
+	/* it's 100 percent of parent, which is 50% of Div*/
+
+
+	h1 { /* ?? */
+		color: #B2B2B2;
+		font-size: 3em;
+		font-weight: 700;
+		padding: 0em 0em 0em 0em;
+ 		margin-bottom: .3em;
+ 		line-height: .9em ;
+	}
+
+	/* CORRECT ???-this code is for turning off nav menu and adds 
+	hamburder menu and vice versa ??? */
+	nav {
+		display: none;
+
+	}
+
+	.mobile-nav{
+	display: block;
+	}
+
+	/* switch of menu type-END*/
+
+
+	#homePage { /*ADD IMAGE*/
+		background-image: url(../images/homebackground_discovery_945.jpg);
+		/*change image and link to a more vertical version of the image-DONE */
+		height:;
+	}
+
+
+	.homepageintro { /* make intro paragraph and transparent 
+		box on home page disappear for tablet and mobile version-DONE */
+		display: none;
+	}
+
+	.statementbiopic { /*????*/
+		float: left;
+		padding: 1em 1em 4em 1em;
+		width: 30%;
+	}
+
+	.artiststatement {
+		float: none; /* ????? */
+		width:100%;
+		padding: 0em;
+	}
+
+	.resumepageimage {
+		width: 100%;
+	}
+
+	.wrapper{ 
+		margin: 0 auto;
+	} 
+
+	.shortenlinelength {
+		width: 90%;
+		padding-right: .2em;
+	}
+
+
+}
+
+@media only screen and (max-width: 751px) {
+
+	/* UNIVERSAL CHANGES */
+	/* put CSS properties in alphabetical order-DONE */
+
+
+/* settings for hamburger menu */
+	.mobile-nav {
+		float: right
+	}
+
+	.menu-btn {
+		padding: 1em;
+	}
+
+/* changes hamburger menu bars */
+	.menu-btn span{
+		background-color: #b58cad;
+		padding: .2em .1em;
+		margin: .3em;
+		width: 2.5em; 
+	}
+	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
+
+	.responsive-menu{
+		background-color: white;
+	}
+
+	.responsive-menu ul li{
+		list-style: none;
+		text-transform: uppercase;
+		line-height: 1.7em;
+		font-size: .9em;
+		padding-left: 2em;
+	}
+/* end settings for hamburger menu */
+
+	figure {
+		float: left;
+		padding: 3em;
+		width: 50%;
+	}
+
+	figure img {
+		width:100%;	
+	}
+	/* it's 100 percent of parent, which is 50% of Div*/
+
+
+	h1 { /* ?? */
+		color: #B2B2B2;
+		font-size: 3em;
+		font-weight: 700;
+		padding: 0em 0em 0em 0em;
+ 		margin-bottom: .3em;
+ 		line-height: .9em ;
+	}
+
+	/* CORRECT ???-this code is for turning off nav menu and adds 
+	hamburder menu and vice versa ??? */
+	nav {
+		display: none;
+
+	}
+
+	.mobile-nav{
+	display: block;
+	}
+
+	/* switch of menu type-END*/
+
+
+	#homePage { /*ADD IMAGE*/
+		background-image: url(../images/homebackground_discovery_945.jpg);
+		/*change image and link to a more vertical version of the image-DONE */
+		height:;
+	}
+
+
+	.homepageintro { /* make intro paragraph and transparent 
+		box on home page disappear for tablet and mobile version-DONE */
+		display: none;
+	}
+
+	.statementbiopic { /*????*/
+		float: left;
+		padding: 1em 1em 4em 1em;
+		width: 30%;
+	}
+
+	.artiststatement {
+		float: none; /* ????? */
+		width:100%;
+		padding: 0em;
+	}
+
+	.resumepageimage {
+		width: 100%;
+	}
+
+	.wrapper{ 
+		margin: 0 auto;
+	} 
+
+	.shortenlinelength {
+		width: 70%;
+		padding-right: .2em;
+	}
+
+
+}
+
+@media only screen and (max-width: 695px) {
+
+	.statementbiopic { /*????*/
+		float: left;
+		padding: 1em 1em 0em 1em;
+		width: 30%;
+	}
+
+}
+
 
 
 @media only screen and (max-width:590px) {
