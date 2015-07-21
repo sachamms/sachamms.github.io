@@ -82,6 +82,18 @@
 
 @media only screen and (max-width:1010px) {
 	
+	.statementbiopic { /*????*/
+		float: left;
+		padding: 1em 1em 1em 1em;
+		width: 30%;
+	}
+
+	.artiststatement {
+		float: none; /* ????? */
+		width:75%;
+		padding: 0em;
+	}
+
 	.shortenlinelength {
 		width: 85%;
 		padding-right: .2em;
@@ -645,7 +657,7 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 1em 1em 4em 1em;
+		padding: 1em 1em 2em 1em;
 		width: 30%;
 	}
 
@@ -757,7 +769,7 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 1em 1em 4em 1em;
+		padding: 1em 1em 0em 1em;
 		width: 30%;
 	}
 
