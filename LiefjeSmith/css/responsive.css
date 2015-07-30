@@ -84,7 +84,7 @@
 	
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 1em 1em 1em 1em;
+		padding: 1em 1em 0em 1em;
 		width: 30%;
 	}
 
@@ -98,6 +98,11 @@
 		width: 85%;
 		padding-right: .2em;
 	}
+
+	.shortenlinelengthofstatement {
+		width: 85%;
+		padding-right: .2em;
+}
 
 	.resumepageimage{
 	align: center;
@@ -146,11 +151,7 @@
 
 
 @media only screen and (max-width:969px) {
-	.shortenlinelength {
-		width: 85%;
-		padding-right: .2em;
-	}
-
+	
 	.resumepageimage{
 	align: center;
 	margin-bottom: 1em;
@@ -199,6 +200,11 @@
 		padding-right: .2em;
 	}
 
+	.shortenlinelengthofstatement {
+		width: 80%;
+		padding-right: .2em;
+}
+
 	h1 { /* ?? */
 		color: #B2B2B2;
 		font-size: 3em;
@@ -231,6 +237,11 @@
 		width: 85%;
 		padding-right: .2em;
 	}
+
+	.shortenlinelengthofstatement {
+		width: 85%;
+		padding-right: .2em;
+}
 
 	.resumepageimage {
 	align: center;
@@ -307,7 +318,7 @@
 	/* switch of menu type-END*/
 
 
-	#homePage { /*ADD IMAGE*/
+	#homePage { 
 		background-image: url(../images/homebackground_discovery_945.jpg);
 		/*change image and link to a more vertical version of the image-DONE */
 		height:;
@@ -321,7 +332,7 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 1em 1em 0em 1em;
+		padding: 1em 1em 1em 1em;
 		width: 24%;
 	}
 
@@ -343,6 +354,11 @@
 		width: 90%;
 		padding-right: .2em;
 	}
+
+	.shortenlinelengthofstatement {
+		width: 90%;
+		padding-right: .2em;
+}
 
 
 }
@@ -433,8 +449,8 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 1em 1em 2em 1em;
-		width: 24%;
+		padding: 1em 1em 0em 1em;
+		width: 25%;
 	}
 
 	.artiststatement {
@@ -455,6 +471,11 @@
 		width: 90%;
 		padding-right: .2em;
 	}
+
+	.shortenlinelengthofstatement {
+		width: 90%;
+		padding-right: .2em;
+}
 
 
 }
@@ -545,7 +566,7 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 1em 1em 4em 1em;
+		padding: 1em 1em 0em 1em;
 		width: 24%;
 	}
 
@@ -567,6 +588,11 @@
 		width: 90%;
 		padding-right: .2em;
 	}
+
+	.shortenlinelengthofstatement {
+		width: 90%;
+		padding-right: .2em;
+}
 
 
 }
@@ -657,7 +683,7 @@
 
 	.statementbiopic { /*????*/
 		float: left;
-		padding: 1em 1em 2em 1em;
+		padding: 1em 1em 0em 1em;
 		width: 30%;
 	}
 
@@ -679,6 +705,11 @@
 		width: 90%;
 		padding-right: .2em;
 	}
+
+	.shortenlinelengthofstatement {
+		width: 90%;
+		padding-right: .2em;
+}
 
 
 }
@@ -791,6 +822,11 @@
 		width: 70%;
 		padding-right: .2em;
 	}
+
+	.shortenlinelengthofstatement {
+		width: 70%;
+		padding-right: .2em;
+}
 
 
 }
@@ -931,6 +967,11 @@
 		width: 85%;
 		padding-right: .2em;
 	}
+
+	.shortenlinelengthofstatement {
+		width: 85%;
+		padding-right: .2em;
+}
 
 	
 

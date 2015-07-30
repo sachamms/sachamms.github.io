@@ -236,7 +236,12 @@ hr {
 
 .shortenlinelength {
 	margin-right: 1em; /* right margin space not working properly-??? */
-	width: 47.3%;
+	width: 56%;
+}
+
+.shortenlinelengthofstatement {
+	margin-right: 1em;
+	width: 45%;
 }
 
 .footerindex {
