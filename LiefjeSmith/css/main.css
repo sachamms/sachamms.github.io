@@ -154,7 +154,6 @@ hr {
 	background-image: url(../images/homebackground_discovery.jpg);
 	background-repeat:no-repeat;
 	background-size: cover;
-	/* ???-fix CSS so paintings always fills browser at bottom */
 	/* ../ for escaping CSS folder */
 }
 
@@ -199,15 +198,17 @@ hr {
 	letter-spacing: 1em;
 }
 
+.statementwrapper {
+	width: 800px;
+}
 
 .statementbiopic {
 	float: left;
-	padding: 1em 0em 0em 1em;
-	width: 20%;
+	padding: 1em;
+	width: 35%;
 }
 
 .artiststatement {
-	float: left; /* ???????????? */
 	letter-spacing: .007em;
 	padding: 0em;
 }
@@ -239,10 +240,6 @@ hr {
 	width: 56%;
 }
 
-.shortenlinelengthofstatement {
-	margin-right: 1em;
-	width: 45%;
-}
 
 .footerindex {
 	background-color: white;
@@ -258,10 +255,6 @@ hr {
 	margin-bottom: 1em;
 	margin-left: 1em;
 	width: 75%;
-}
-
-.moveright {
-	margin-left: 25em;
 }
 
 /* copied code from 
