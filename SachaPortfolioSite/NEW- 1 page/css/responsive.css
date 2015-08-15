@@ -276,11 +276,12 @@
 
 	/* switch of menu type-END*/
 
+	/* ADJUST SIZE*/
 
-	#homePage { 
-		background-image: url(../images/homebackground_discovery_945.jpg);
-		/*change image and link to a more vertical version of the image-DONE */
-		height:;
+	#circlebannerattop { 
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2em;
 	}
 
 
@@ -373,11 +374,12 @@
 
 	/* switch of menu type-END*/
 
+/* ADJUST SIZE*/
 
-	#homePage { /*ADD IMAGE*/
-		background-image: url(../images/homebackground_discovery_945.jpg);
-		/*change image and link to a more vertical version of the image-DONE */
-		height:;
+	#circlebannerattop { 
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2em;
 	}
 
 
@@ -474,11 +476,12 @@
 
 	/* switch of menu type-END*/
 
+/* ADJUST SIZE*/
 
-	#homePage { /*ADD IMAGE*/
-		background-image: url(../images/homebackground_discovery_945.jpg);
-		/*change image and link to a more vertical version of the image-DONE */
-		height:;
+	#circlebannerattop { 
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2em;
 	}
 
 
@@ -589,10 +592,12 @@
 	/* switch of menu type-END*/
 
 
-	#homePage { /*ADD IMAGE*/
-		background-image: url(../images/homebackground_discovery_945.jpg);
-		/*change image and link to a more vertical version of the image-DONE */
-		height:;
+	/* ADJUST SIZE*/
+
+	#circlebannerattop { 
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2em;
 	}
 
 
@@ -700,10 +705,12 @@
 	/* switch of menu type-END*/
 
 
-	#homePage { /*ADD IMAGE*/
-		background-image: url(../images/homebackground_discovery_945.jpg);
-		/*change image and link to a more vertical version of the image-DONE */
-		height:;
+	/* ADJUST SIZE*/
+
+	#circlebannerattop { 
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2em;
 	}
 
 
@@ -815,10 +822,12 @@
 	/* switch of menu type-END*/
 
 
-	#homePage { /*ADD IMAGE*/
-		background-image: url(../images/homebackground_discovery_945.jpg);
-		/*change image and link to a more vertical version of the image-DONE */
-		height:;
+	/* ADJUST SIZE*/
+
+	#circlebannerattop { 
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2em;
 	}
 
 
@@ -931,10 +940,12 @@
 	/* switch of menu type-END*/
 
 
-	#homePage { /*ADD IMAGE*/
-		background-image: url(../images/homebackground_discovery_945.jpg);
-		/*change image and link to a more vertical version of the image-DONE */
-		height:;
+	/* ADJUST SIZE*/
+
+	#circlebannerattop { 
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2em;
 	}
 
 
@@ -1055,13 +1066,14 @@
 
 	/* switch of menu type-END*/
 
-	#homePage {/*ADD IMAGE*/
-		background-image: url(../images/homebackground_discovery_590.jpg);
-		/*change image and link to a more vertical version of the image-DONE
-		-can I set a fixed height so the image doesn't become very narrow? */
-		height:;
-	}
+	/* ADJUST SIZE*/
 
+	#circlebannerattop { 
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2em;
+	}
+	
 	.homepageintro { /* make intro paragraph and transparent 
 		box on home page disappear for tablet and mobile version-DONE*/
 		display: none;

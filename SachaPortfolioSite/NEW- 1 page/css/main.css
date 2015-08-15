@@ -19,7 +19,7 @@ body {
 header {
 	background-color: #FFFFFF;
 	font-family: 'Lato', Helvetica, sans-serif;
-	margin-bottom: 3em; 
+	margin-bottom: 0em; 
 
 } /* put the background color for the navigation menu 
 	and logo, under header tag */
@@ -150,12 +150,13 @@ hr {
 	
 }
 /* Put classes and IDs below here */
-#homePage {
-	background-image: url(../images/homebackground_circlepattern.jpg);
-	background-repeat:no-repeat;
-	background-size: cover;
-	/* ../ for escaping CSS folder */
-}
+
+/* IS THIS CORRECT?*/
+#circlebannerattop { 
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2em;
+	}
 
 .wrapper{ 
 	margin: 0 auto;
@@ -214,16 +215,6 @@ hr {
 .shortenlinelength {
 	margin-right: 1em; /* right margin space not working properly-??? */
 	width: 56%;
-}
-
-
-.footerindex {
-	background-color: white;
-	padding: 1.25em;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
 }
 
 .resumepageimage{
