@@ -162,30 +162,6 @@ hr {
 	max-width: 1200px; /* or 960px; 1200px standard */
 } /* make wrapper a class */
 
-
-.homepageintro {
-	background-color: rgba(255, 255, 255, 0.7);
-	border-radius: 10px;
-	color: #505050;
-	font-size: 1.2em;
-	letter-spacing: .007em;
-	padding: 3em 2em 2em 2em; /* why isn't the text centered 
-	vertically? */
-	text-align: center;
-	width: 32em; /* 26em-based half of width 
-	(910px) divided by body font size (17px) */
-
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-    	-ms-transform: translate(-50%, -50%);
-       	 	transform: translate(-50%, -50%);	
-	/* there are a lof of different things 
-	that you can do with "transform" */
-}
-
-
 .navli{
 	color: white;
 	display: inline; /* worked */

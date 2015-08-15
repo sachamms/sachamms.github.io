@@ -284,11 +284,6 @@
 	}
 
 
-	.homepageintro { /* make intro paragraph and transparent 
-		box on home page disappear for tablet and mobile version-DONE */
-		display: none;
-	}
-
 	.statementwrapper {
 	width: 800px;
 	}
@@ -385,11 +380,6 @@
 		height:;
 	}
 
-
-	.homepageintro { /* make intro paragraph and transparent 
-		box on home page disappear for tablet and mobile version-DONE */
-		display: none;
-	}
 
 	.statementbiopic {
 		float: left;
