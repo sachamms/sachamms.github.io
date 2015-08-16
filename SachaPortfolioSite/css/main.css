@@ -29,6 +29,10 @@ header img {
  	width: 250px; 
  }
 
+
+/* make nav items black!!!!!!*/
+
+
 nav {
 	color: #A0A0A0;
 	font-family: 'Lato', Helvetica, sans-serif;
@@ -80,7 +84,7 @@ li{
 figure {
 	float: left;
 	padding: 2em;
-	width: 33%;
+	width: 33%; 
 }
 
 figure img {
@@ -91,6 +95,7 @@ figure img {
 figcaption {
 	color: #505050;
 	font-family:'Alegreya','Times New Roman' serif;
+	text-align: center;
 }
 
 
@@ -107,7 +112,7 @@ a:hover {
 
 
 h1 {
-	color: #B2B2B2;
+	color: #88d7dd;
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-size: 3em;
 	font-weight: 700; 
@@ -118,7 +123,7 @@ h1 {
 }
 
 h2 {
-	color: #A0A0A0;
+	color: black;
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 400; 
 	font-size: 1.5em;
@@ -133,7 +138,21 @@ h3 {
 	font-size: .8em;
 	font-weight: 500;
 	margin-left: 1em;
+	padding-bottom: 2em;
+
 } /* ??? */
+
+h4 {
+	color: #8fd5db;
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 200; 
+	font-size: 1.4em;
+	line-height: 1.7em;
+	margin-left: .6em;
+	margin-top: 1em;
+	text-align:center;
+	padding-bottom:2em;
+}
 
 p {
 	color: #505050;
