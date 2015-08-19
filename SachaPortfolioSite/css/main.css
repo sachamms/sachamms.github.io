@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,700,900&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt); /* doesn't work????*/
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 
 * {
 	margin: 0;
@@ -25,16 +29,12 @@ header {
 	and logo, under header tag */
 
 header img {
- 	margin-left: 2em; /* ok ???? */
+ 	margin-left: 2em; 
  	width: 250px; 
  }
 
 
-/* make nav items black!!!!!!*/
-
-
 nav {
-	color: #A0A0A0;
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-size: 2em;
 	font-weight: 400; 
@@ -50,9 +50,16 @@ nav ul {
 	padding: ; /* ??? */
 }
 
+/* nav color links here*/
+
+nav ul li a{
+	color: black;
+
+}
+
 footer {
 	clear: both;
-	color: #B2B2B2;
+	color: black;
 	font-family: 'Lato', Helvetica, sans-serif;
  	float: right;
  	padding: 1em 0em;
@@ -61,22 +68,22 @@ footer {
 }
 
 footer a {
-	color: #B2B2B2; 
+	color: black; 
 	font-family: 'Lato', Helvetica, sans-serif;
-	font-size: 15px; /* enter pixel size here rather than percentage
+	font-size: 1em; /* enter pixel size here rather than percentage
 	-change to em? */
 }
 
 footer p {
-	color: #B2B2B2; 
+	color: black; 
 	font-family: 'Lato', Helvetica, sans-serif;
-	font-size: 15px;
+	font-size: 1em;
 	line-height: 1.2em;
 	margin-right: 2em; 
 }
 
 li{
-	color: #505050;
+	color: black;
 	list-style: disc;
 }
 
@@ -106,25 +113,24 @@ a {
 
 /* mouse over link */
 a:hover {
-    color: #080808;
+    color: #ed52b1;
     text-decoration: none;
 }
 
 
 h1 {
 	color: #88d7dd;
-	font-family: 'Lato', Helvetica, sans-serif;
+	font-family:'Permanent+Marker', Helvetica, sans-serif;
 	font-size: 3em;
-	font-weight: 700; 
 	letter-spacing:;
 	margin-bottom: .1em;
 	margin-left: .25em;
-	margin-top:; /* ??? */
+	margin-top:; /* deleted font-weight */
 }
 
 h2 {
 	color: black;
-	font-family: 'Lato', Helvetica, sans-serif;
+	font-family: 'Merriweather', Helvetica, sans-serif;
 	font-weight: 400; 
 	font-size: 1.5em;
 	margin-left: .6em;
