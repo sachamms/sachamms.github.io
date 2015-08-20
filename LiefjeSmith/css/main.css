@@ -46,6 +46,13 @@ nav ul {
 	padding: ; /* ??? */
 }
 
+/* nav color links here*/
+
+nav ul li a{
+	color: ;
+
+}
+
 footer {
 	clear: both;
 	color: #B2B2B2;
