@@ -183,6 +183,20 @@ hr {
 		padding-bottom: 2em;
 	}
 
+#hrseparator {
+	border-top: 1px dotted black;
+	width: 100%;
+	float:center;
+}
+
+#thickhr {
+	width: 100%;
+	background-color:#e5f9fa;
+	height: 3em;
+	border: 0;
+	margin-bottom: 2em;
+}
+
 .wrapper{ 
 	margin: 0 auto;
 	max-width: 1200px; /* or 960px; 1200px standard */
