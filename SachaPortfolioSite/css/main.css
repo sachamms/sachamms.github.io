@@ -1,8 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,700,900&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic);
-@import url(http://fonts.googleapis.com/css?family=Rock+Salt); /* doesn't work????*/
-@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 
 * {
@@ -22,7 +18,7 @@ body {
 
 header {
 	background-color: #FFFFFF;
-	font-family: 'Lato', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
 	margin-bottom: 0em; 
 
 } /* put the background color for the navigation menu 
@@ -35,7 +31,7 @@ header img {
 
 
 nav {
-	font-family: 'Lato', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
 	font-size: 2em;
 	font-weight: 400; 
 	float: right; /* float nav right */
@@ -54,13 +50,14 @@ nav ul {
 
 nav ul li a{
 	color: black;
+	font-size: 1.2em;
 
 }
 
 footer {
 	clear: both;
 	color: black;
-	font-family: 'Lato', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
  	float: right;
  	padding: 1em 0em;
 	text-align: right;
@@ -69,15 +66,15 @@ footer {
 
 footer a {
 	color: black; 
-	font-family: 'Lato', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
 	font-size: 1em; /* enter pixel size here rather than percentage
 	-change to em? */
 }
 
 footer p {
 	color: black; 
-	font-family: 'Lato', Helvetica, sans-serif;
-	font-size: 1em;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-size: 1.3em;
 	line-height: 1.2em;
 	margin-right: 2em; 
 }
@@ -100,8 +97,9 @@ figure img {
 /* it's 100 percent of parent, which is 33% of Div*/
 
 figcaption {
-	color: #505050;
-	font-family:'Alegreya','Times New Roman' serif;
+	color: #77787b;
+	font-family:'Source Sans Pro', Helvetica, sans-serif;
+	font-weight: 300;
 	text-align: center;
 }
 
@@ -120,7 +118,7 @@ a:hover {
 
 h1 {
 	color: #88d7dd;
-	font-family:'Permanent+Marker', Helvetica, sans-serif;
+	font-family:'Permanent Marker', Helvetica, sans-serif;
 	font-size: 3em;
 	letter-spacing:;
 	margin-bottom: .1em;
@@ -130,31 +128,33 @@ h1 {
 
 h2 {
 	color: black;
-	font-family: 'Merriweather', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
 	font-weight: 400; 
-	font-size: 1.5em;
+	font-size: 1.6em;
 	margin-left: .6em;
-	margin-top: 1em;
+	margin-top: .8em;
 	text-transform: uppercase;
 } /* ??? */
 
 h3 {
-	color: #505050;
-	font-family: 'Lato', Helvetica, sans-serif;
+	color: #58595b;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
 	font-size: .8em;
-	font-weight: 500;
+	font-weight: 400;
 	margin-left: 1em;
 	padding-bottom: 2em;
 
 } /* ??? */
 
 h4 {
-	color: #8fd5db;
-	font-family: 'Lato', Helvetica, sans-serif;
-	font-weight: 200; 
-	font-size: 1.4em;
+	color: #88d7dd;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-weight: 900; 
+	font-size: 1.8em;
+	font-weight: 400;
 	line-height: 1.7em;
 	margin-left: .6em;
+	margin-right: .6em;
 	margin-top: 1em;
 	text-align:center;
 	padding-bottom:2em;
@@ -162,7 +162,7 @@ h4 {
 
 p {
 	color: #505050;
-	font-family:'Alegreya','Times New Roman' serif;
+	font-family:'Source Sans Pro', Helvetica, sans-serif;
 	font-size: 1em;
 	line-height: 1.3em;
 	margin-bottom: 1em;
@@ -247,7 +247,7 @@ hr {
 }   TOOK OUT */
 
 .indentbullets {
-	font-family:'Alegreya','Times New Roman' serif;
+	font-family:'Source Sans Pro', Helvetica, sans-serif;
 	margin-left: 2em;
 }
 
