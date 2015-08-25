@@ -178,11 +178,7 @@ hr {
 /* Put classes and IDs below here */
 
 /* IS THIS CORRECT?*/
-#circlebannerattop { 
-		width: 100%;
-		padding-top: 0;
-		padding-bottom: 2em;
-	}
+	
 
 #hrseparator {
 	border-top: 1px dotted black;
@@ -196,6 +192,13 @@ hr {
 	height: 3em;
 	border: 0;
 	margin-bottom: 2em;
+}
+
+#circlebanner { 
+	background-image: url(../images/homebackground_circlepattern.jpg);     
+	height: 72px;     
+	background-repeat: no-repeat;     
+	background-size: 100%;
 }
 
 .wrapper{ 
