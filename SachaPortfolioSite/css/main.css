@@ -175,6 +175,11 @@ hr {
 	margin-top: 1em;
 	
 }
+
+footer p img{
+	margin-left: 1em;
+}
+
 /* Put classes and IDs below here */
 
 /* IS THIS CORRECT?*/
@@ -194,11 +199,12 @@ hr {
 	margin-bottom: 2em;
 }
 
-#circlebanner { 
-	background-image: url(../images/homebackground_circlepattern.jpg);     
-	height: 72px;     
-	background-repeat: no-repeat;     
+#circlebanner {
+	background-image: url(../images/homebackground_circlepattern.jpg);
+	height: 6em;
+	background-repeat: no-repeat;
 	background-size: 100%;
+	margin-bottom: 2em;
 }
 
 .wrapper{ 
