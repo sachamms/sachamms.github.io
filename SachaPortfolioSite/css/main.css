@@ -67,16 +67,16 @@ footer {
 footer a {
 	color: black; 
 	font-family: 'Source Sans Pro', Helvetica, sans-serif;
-	font-size: 1em; /* enter pixel size here rather than percentage
-	-change to em? */
+	font-size: 1em; 
+	margin:0em 1em; 
 }
 
-footer p {
+footer p{
 	color: black; 
 	font-family: 'Source Sans Pro', Helvetica, sans-serif;
-	font-size: 1.3em;
+	font-size: 1em;
 	line-height: 1.2em;
-	margin-right: 2em; 
+	
 }
 
 li{

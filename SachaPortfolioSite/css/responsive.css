@@ -1,143 +1,25 @@
 
-@media only screen and (max-width:1623px) {
-	
 
-/* settings for hamburger menu */
-	.mobile-nav{
-		float: right
-	}
-
-	.menu-btn {
-		padding: 1em;
-	}
-
-/* changes hamburger menu bars */
-	.menu-btn span{
-		background-color: #88d7dd;
-		padding: .2em .1em;
-		margin: .3em;
-		width: 2.5em; 
-	}
-	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
-
-	.responsive-menu{
-		background-color: white;
-	}
-
-	.responsive-menu ul li{
-		list-style: none;
-		text-transform: uppercase;
-		line-height: 1.7em;
-		font-size: .9em;
-		padding-left: 2em;
-	}
-/* end settings for hamburger menu */
+@media only screen and (max-width:1300px) {
+/* NOT CHANGING IMAGE ????-why? */
+	#circlebanner {
+	background-image: url(../images/homebackground_circlepattern_1300.jpg);
+	height: 6em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 2em;
 }
-
-
-
-/* not working 
-	:color: #A0A0A0;
-	padding: ;  */
-
-@media only screen and (max-width:1364px) {
-	
-	/* settings for hamburger menu */
-	.mobile-nav{
-		float: right
-	}
-
-	.menu-btn {
-		padding: 1em;
-	}
-
-/* changes hamburger menu bars */
-	.menu-btn span{
-		background-color: #88d7dd;
-		padding: .2em .1em;
-		margin: .3em;
-		width: 2.5em; 
-	}
-	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
-
-	.responsive-menu{
-		background-color: white;
-	}
-
-	.responsive-menu ul li{
-		list-style: none;
-		text-transform: uppercase;
-		line-height: 1.7em;
-		font-size: .9em;
-		padding-left: 2em;
-	}
-/* end settings for hamburger menu */
-
-@media only screen and (max-width:1010px) {
-	
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
-
-
-	.shortenlinelength {
-		width: 85%;
-		padding-right: .2em;
-	}
-
-	.resumepageimage{
-	align: center;
-	margin-bottom: 1em;
-	margin-left: 1em;
-	margin-right: 1em;
-	width: 85%;
-	}
-
-	/* settings for hamburger menu */
-	.mobile-nav{
-		float: right
-	}
-
-	.menu-btn {
-		padding: 1em;
-	}
-
-/* changes hamburger menu bars */
-	.menu-btn span{
-		background-color: #88d7dd;
-		padding: .2em .1em;
-		margin: .3em;
-		width: 2.5em; 
-	}
-	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
-
-	.responsive-menu{
-		background-color: white;
-	}
-
-	.responsive-menu ul li{
-		list-style: none;
-		text-transform: uppercase;
-		line-height: 1.7em;
-		font-size: .9em;
-		padding-left: 2em;
-	}
-/* end settings for hamburger menu */
-}
-
 
 
 @media only screen and (max-width:969px) {
 	
-	.resumepageimage{
-	align: center;
-	margin-bottom: 1em;
-	margin-left: 1em;
-	margin-right: 1em;
-	width: 85%;
-	}
+	#circlebanner {
+	background-image: url(../images/homebackground_circlepattern_1300.jpg);
+	height: 6em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 2em;
+}
 	
 /* settings for hamburger menu */
 	.mobile-nav{
@@ -171,45 +53,19 @@
 /* end settings for hamburger menu */
 
 
-	.shortenlinelength {
-		width: 80%;
-		padding-right: .2em;
-	}
 
-	h1 { /* ?? */
-		color: #88d7dd;
-		font-size: 3em;
-		font-weight: 700;
-		padding: 0em 0em 0em 0em;
- 		margin-bottom: 0em;
- 		line-height: .9em ;
-	}
+@media only screen and (max-width:850px) {
 
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-	}
-
+	#circlebanner {
+	background-image: url(../images/homebackground_circlepattern_1300.jpg);
+	height: 6em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 2em;
 }
-
-@media only screen and (max-width:945px) {
 
 	/* UNIVERSAL CHANGES */
 	/* put CSS properties in alphabetical order-DONE */
-	.shortenlinelength {
-		width: 85%;
-		padding-right: .2em;
-	}
-
-	.resumepageimage {
-		align: center;
-		margin-bottom: 1em;
-		margin-left: 1em;
-		margin-right: 1em;
-		width: 85%;
-	}
-
 
 /* settings for hamburger menu */
 	.mobile-nav {
@@ -284,360 +140,24 @@
 		padding-bottom: 2em;
 	}
 
-
-	.statementwrapper {
-	width: 800px;
-	}
-
-	.resumepageimage {
-		width: 100%;
-	}
-
-	.wrapper{ 
+.wrapper{ 
 		margin: 0 auto;
 	} 
 
-	.shortenlinelength {
-		width: 90%;
-		padding-right: .2em;
-	}
 }
 
-@media only screen and (max-width:885px) {
+@media only screen and (max-width: 750px) {
 
 	/* UNIVERSAL CHANGES */
 	/* put CSS properties in alphabetical order-DONE */
 
-
-/* settings for hamburger menu */
-	.mobile-nav {
-		float: right
-	}
-
-	.menu-btn {
-		padding: 1em;
-	}
-
-/* changes hamburger menu bars */
-	.menu-btn span{
-		background-color: #88d7dd;
-		padding: .2em .1em;
-		margin: .3em;
-		width: 2.5em; 
-	}
-	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
-
-	.responsive-menu{
-		background-color: white;
-	}
-
-	.responsive-menu ul li{
-		list-style: none;
-		text-transform: uppercase;
-		line-height: 1.7em;
-		font-size: .9em;
-		padding-left: 2em;
-	}
-/* end settings for hamburger menu */
-
-	figure {
-		float: left;
-		padding: 3em;
-		width: 50%;
-	}
-
-	figure img {
-		width:100%;	
-	}
-	/* it's 100 percent of parent, which is 50% of Div*/
-
-
-	h1 { /* ?? */
-		color: #88d7dd;
-		font-size: 3em;
-		font-weight: 700;
-		padding: 0em 0em 0em 0em;
- 		margin-bottom: .3em;
- 		line-height: .9em ;
-	}
-
-	/* CORRECT ???-this code is for turning off nav menu and adds 
-	hamburder menu and vice versa ??? */
-	nav {
-		display: none;
-
-	}
-
-	.mobile-nav{
-	display: block;
-	}
-
-	/* switch of menu type-END*/
-
-/* ADJUST SIZE*/
-
-	#circlebannerattop { 
-		width: 100%;
-		padding-top: 0;
-		padding-bottom: 2em;
-	}
-
-
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-	}
-
-	.resumepageimage {
-		width: 100%;
-	}
-
-	.wrapper{ 
-		margin: 0 auto;
-	} 
-
-	.shortenlinelength {
-		width: 90%;
-		padding-right: .2em;
-	}
-
+#circlebanner {
+	background-image: url(../images/homebackground_circlepattern_750.jpg);
+	height: 6em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 2em;
 }
-
-@media only screen and (max-width: 831px) {
-
-	/* UNIVERSAL CHANGES */
-	/* put CSS properties in alphabetical order-DONE */
-
-
-/* settings for hamburger menu */
-	.mobile-nav {
-		float: right
-	}
-
-	.menu-btn {
-		padding: 1em;
-	}
-
-/* changes hamburger menu bars */
-	.menu-btn span{
-		background-color: #88d7dd;
-		padding: .2em .1em;
-		margin: .3em;
-		width: 2.5em; 
-	}
-	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
-
-	.responsive-menu{
-		background-color: white;
-	}
-
-	.responsive-menu ul li{
-		list-style: none;
-		text-transform: uppercase;
-		line-height: 1.7em;
-		font-size: .9em;
-		padding-left: 2em;
-	}
-/* end settings for hamburger menu */
-
-	figure {
-		float: left;
-		padding: 3em;
-		width: 50%;
-	}
-
-	figure img {
-		width:100%;	
-	}
-	/* it's 100 percent of parent, which is 50% of Div*/
-
-
-	h1 { /* ?? */
-		color: #88d7dd;
-		font-size: 3em;
-		font-weight: 700;
-		padding: 0em 0em 0em 0em;
- 		margin-bottom: .3em;
- 		line-height: .9em ;
-	}
-
-	/* CORRECT ???-this code is for turning off nav menu and adds 
-	hamburder menu and vice versa ??? */
-	
-	nav {
-		display: none;
-
-	}
-
-	.mobile-nav{
-	display: block;
-	}
-
-	/* switch of menu type-END*/
-
-/* ADJUST SIZE*/
-
-	#circlebannerattop { 
-		width: 100%;
-		padding-top: 0;
-		padding-bottom: 2em;
-	}
-
-
-	.homepageintro { /* make intro paragraph and transparent 
-		box on home page disappear for tablet and mobile version-DONE */
-		display: none;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
-
-	.resumepageimage {
-		width: 100%;
-	}
-
-	.wrapper{ 
-		margin: 0 auto;
-	} 
-
-	.shortenlinelength {
-		width: 90%;
-		padding-right: .2em;
-	}
-
-}
-
-@media only screen and (max-width: 800px) {
-	/* UNIVERSAL CHANGES */
-	/* put CSS properties in alphabetical order-DONE */
-
-	.statementwrapper {
-		width: 700px;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em 1em 0em 1em;
-		width: 30%;
-	}
-
-/* settings for hamburger menu */
-	.mobile-nav {
-		float: right
-	}
-
-	.menu-btn {
-		padding: 1em;
-	}
-
-/* changes hamburger menu bars */
-	.menu-btn span{
-		background-color: #88d7dd;
-		padding: .2em .1em;
-		margin: .3em;
-		width: 2.5em; 
-	}
-	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
-
-	.responsive-menu{
-		background-color: white;
-	}
-
-	.responsive-menu ul li{
-		list-style: none;
-		text-transform: uppercase;
-		line-height: 1.7em;
-		font-size: .9em;
-		padding-left: 2em;
-	}
-/* end settings for hamburger menu */
-
-	figure {
-		float: left;
-		padding: 3em;
-		width: 50%;
-	}
-
-	figure img {
-		width:100%;	
-	}
-	/* it's 100 percent of parent, which is 50% of Div*/
-
-
-	h1 { /* ?? */
-		color: #88d7dd;
-		font-size: 3em;
-		font-weight: 700;
-		padding: 0em 0em 0em 0em;
- 		margin-bottom: .3em;
- 		line-height: .9em ;
-	}
-
-	/* CORRECT ???-this code is for turning off nav menu and adds 
-	hamburder menu and vice versa ??? */
-	
-	nav {
-		display: none;
-
-	}
-
-	.mobile-nav{
-	display: block;
-	}
-
-	/* switch of menu type-END*/
-
-
-	/* ADJUST SIZE*/
-
-	#circlebannerattop { 
-		width: 100%;
-		padding-top: 0;
-		padding-bottom: 2em;
-	}
-
-
-	.homepageintro { /* make intro paragraph and transparent 
-		box on home page disappear for tablet and mobile version-DONE */
-		display: none;
-	}
-
-	.resumepageimage {
-		width: 100%;
-	}
-
-	.wrapper{ 
-		margin: 0 auto;
-	} 
-
-	.shortenlinelength {
-		width: 90%;
-		padding-right: .2em;
-	}
-
-
-}
-
-
-
-@media only screen and (max-width: 776px) {
-
-	/* UNIVERSAL CHANGES */
-	/* put CSS properties in alphabetical order-DONE */
-
-	.statementwrapper {
-		width: 675px;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em 1em 0em 1em;
-		width: 27%;
-	}
 
 /* settings for hamburger menu */
 	.mobile-nav {
@@ -712,283 +232,16 @@
 		padding-top: 0;
 		padding-bottom: 2em;
 	}
-
-
-	.homepageintro { /* make intro paragraph and transparent 
-		box on home page disappear for tablet and mobile version-DONE */
-		display: none;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
-
-	.resumepageimage {
-		width: 100%;
-	}
-
 	.wrapper{ 
 		margin: 0 auto;
 	} 
-
-	.shortenlinelength {
-		width: 90%;
-		padding-right: .2em;
-	}
-
-}
-
-@media only screen and (max-width: 754px) {
-
-	.statementwrapper {
-		width: 675px;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em 1em 0em 1em;
-		width: 27%;
-	}
-
-	/* UNIVERSAL CHANGES */
-	/* put CSS properties in alphabetical order-DONE */
-
-
-/* settings for hamburger menu */
-	.mobile-nav {
-		float: right
-	}
-
-	.menu-btn {
-		padding: 1em;
-	}
-
-/* changes hamburger menu bars */
-	.menu-btn span{
-		background-color: #88d7dd;
-		padding: .2em .1em;
-		margin: .3em;
-		width: 2.5em; 
-	}
-	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
-
-	.responsive-menu{
-		background-color: white;
-	}
-
-	.responsive-menu ul li{
-		list-style: none;
-		text-transform: uppercase;
-		line-height: 1.7em;
-		font-size: .9em;
-		padding-left: 2em;
-	}
-/* end settings for hamburger menu */
-
-	figure {
-		float: left;
-		padding: 3em;
-		width: 50%;
-	}
-
-	figure img {
-		width:100%;	
-	}
-	/* it's 100 percent of parent, which is 50% of Div*/
-
-
-	h1 { /* ?? */
-		color: #88d7dd;
-		font-size: 3em;
-		font-weight: 700;
-		padding: 0em 0em 0em 0em;
- 		margin-bottom: .3em;
- 		line-height: .9em ;
-	}
-
-	/* CORRECT ???-this code is for turning off nav menu and adds 
-	hamburder menu and vice versa ??? */
-	nav {
-		display: none;
-
-	}
-
-	.mobile-nav{
-	display: block;
-	}
-
-	/* switch of menu type-END*/
-
-
-	/* ADJUST SIZE*/
-
-	#circlebannerattop { 
-		width: 100%;
-		padding-top: 0;
-		padding-bottom: 2em;
-	}
-
-
-	.homepageintro { /* make intro paragraph and transparent 
-		box on home page disappear for tablet and mobile version-DONE */
-		display: none;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
-
-	.resumepageimage {
-		width: 100%;
-	}
-
-	.wrapper{ 
-		margin: 0 auto;
-	} 
-
-	.shortenlinelength {
-		width: 70%;
-		padding-right: .2em;
-	}
-
-
-}
-
-@media only screen and (max-width: 665px) {
-		
-		.statementwrapper {
-		width: 600px;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em 1em 0em 1em;
-		width: 30%;
-	}
-
-	/* UNIVERSAL CHANGES */
-	/* put CSS properties in alphabetical order-DONE */
-
-
-/* settings for hamburger menu */
-	.mobile-nav {
-		float: right
-	}
-
-	.menu-btn {
-		padding: 1em;
-	}
-
-/* changes hamburger menu bars */
-	.menu-btn span{
-		background-color: #88d7dd;
-		padding: .2em .1em;
-		margin: .3em;
-		width: 2.5em; 
-	}
-	/* lime green:#a7ad2e; purple: #a74595, #9d6892 */
-
-	.responsive-menu{
-		background-color: white;
-	}
-
-	.responsive-menu ul li{
-		list-style: none;
-		text-transform: uppercase;
-		line-height: 1.7em;
-		font-size: .9em;
-		padding-left: 2em;
-	}
-/* end settings for hamburger menu */
-
-	figure {
-		float: left;
-		padding: 3em;
-		width: 50%;
-	}
-
-	figure img {
-		width:100%;	
-	}
-	/* it's 100 percent of parent, which is 50% of Div*/
-
-
-	h1 { /* ?? */
-		color: #88d7dd;
-		font-size: 3em;
-		font-weight: 700;
-		padding: 0em 0em 0em 0em;
- 		margin-bottom: .3em;
- 		line-height: .9em ;
-	}
-
-	/* CORRECT ???-this code is for turning off nav menu and adds 
-	hamburder menu and vice versa ??? */
-	nav {
-		display: none;
-
-	}
-
-	.mobile-nav{
-	display: block;
-	}
-
-	/* switch of menu type-END*/
-
-
-	/* ADJUST SIZE*/
-
-	#circlebannerattop { 
-		width: 100%;
-		padding-top: 0;
-		padding-bottom: 2em;
-	}
-
-
-	.homepageintro { /* make intro paragraph and transparent 
-		box on home page disappear for tablet and mobile version-DONE */
-		display: none;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
-
-	.resumepageimage {
-		width: 100%;
-	}
-
-	.wrapper{ 
-		margin: 0 auto;
-	} 
-
-	.shortenlinelength {
-		width: 70%;
-		padding-right: .2em;
-	}
 }
 
 
-@media only screen and (max-width:590px) {
+
+@media only screen and (max-width:600px) {
 	/* UNIVERSAL CHANGES */
 	/* make nav bar a hamburger menu */
-	
-	.statementwrapper {
-		width: 460px;
-	}
-
-	.statementbiopic {
-		float: none;
-		padding: 1em 1em 0em 1em;
-		width: 70%;
-	}
-
 
 	/* settings for hamburger menu */
 	.mobile-nav{
@@ -1073,39 +326,12 @@
 		padding-top: 0;
 		padding-bottom: 2em;
 	}
-	
-	.homepageintro { /* make intro paragraph and transparent 
-		box on home page disappear for tablet and mobile version-DONE*/
-		display: none;
-	}
-
-	.resumepageimage { 
-		display: none;
-	}
 
 	.wrapper{ 
 		margin: 0 auto;
 		max-width: 800px; /* or 960px; 1200px standard */
 
 	} 
-	.shortenlinelength {
-		width: 85%;
-		padding-right: .2em;
-	}
-
-	@media only screen and (max-width:515px) {
-	/* UNIVERSAL CHANGES */
-	/* make nav bar a hamburger menu */
-	
-	.statementwrapper {
-		width: 400px;
-	}
-
-	.statementbiopic {
-		float: none;
-		padding: 1em 1em 0em 1em;
-		width: 100%;
-	}
 
 	@media only screen and (max-width:400px) {
 	/* UNIVERSAL CHANGES */
@@ -1120,16 +346,3 @@
 		line-height: .9em ;
 	}
 
-	.statementwrapper {
-		width: 325px;
-	}
-
-	.statementbiopic {
-		float: none;
-		padding: 1em 1em 0em 1em;
-		width: 100%;
-	}
-	
-}
-
-	
