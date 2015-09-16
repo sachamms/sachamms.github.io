@@ -47,6 +47,7 @@
 		float: right
 	}
 
+
 	.menu-btn {
 		padding: 1em;
 	}
@@ -75,13 +76,6 @@
 
 @media only screen and (max-width:1010px) {
 	
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
-
-
 	.shortenlinelength {
 		width: 85%;
 		padding-right: .2em;
@@ -185,11 +179,6 @@
  		line-height: .9em ;
 	}
 
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-	}
 
 }
 
@@ -391,12 +380,6 @@
 		display: none;
 	}
 
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-	}
-
 	.resumepageimage {
 		width: 100%;
 	}
@@ -497,12 +480,6 @@
 		display: none;
 	}
 
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
-
 	.resumepageimage {
 		width: 100%;
 	}
@@ -524,12 +501,6 @@
 
 	.statementwrapper {
 		width: 700px;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em 1em 0em 1em;
-		width: 30%;
 	}
 
 /* settings for hamburger menu */
@@ -638,12 +609,6 @@
 		width: 675px;
 	}
 
-	.statementbiopic {
-		float: left;
-		padding: 1em 1em 0em 1em;
-		width: 27%;
-	}
-
 /* settings for hamburger menu */
 	.mobile-nav {
 		float: right
@@ -722,11 +687,6 @@
 		display: none;
 	}
 
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
 
 	.resumepageimage {
 		width: 100%;
@@ -747,12 +707,6 @@
 
 	.statementwrapper {
 		width: 675px;
-	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em 1em 0em 1em;
-		width: 27%;
 	}
 
 	/* UNIVERSAL CHANGES */
@@ -836,12 +790,6 @@
 		box on home page disappear for tablet and mobile version-DONE */
 		display: none;
 	}
-
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
 
 	.resumepageimage {
 		width: 100%;
@@ -865,12 +813,6 @@
 		width: 600px;
 	}
 
-	.statementbiopic {
-		float: left;
-		padding: 1em 1em 0em 1em;
-		width: 30%;
-	}
-
 	/* UNIVERSAL CHANGES */
 	/* put CSS properties in alphabetical order-DONE */
 
@@ -953,12 +895,6 @@
 		display: none;
 	}
 
-	.statementbiopic {
-		float: left;
-		padding: 1em;
-		width: 35%;
-}
-
 	.resumepageimage {
 		width: 100%;
 	}
@@ -981,13 +917,6 @@
 	.statementwrapper {
 		width: 460px;
 	}
-
-	.statementbiopic {
-		float: none;
-		padding: 1em 1em 0em 1em;
-		width: 70%;
-	}
-
 
 	/* settings for hamburger menu */
 	.mobile-nav{
@@ -1099,12 +1028,6 @@
 		width: 400px;
 	}
 
-	.statementbiopic {
-		float: none;
-		padding: 1em 1em 0em 1em;
-		width: 100%;
-	}
-
 	@media only screen and (max-width:400px) {
 	/* UNIVERSAL CHANGES */
 	/* make nav bar a hamburger menu */
@@ -1120,12 +1043,6 @@
 
 	.statementwrapper {
 		width: 325px;
-	}
-
-	.statementbiopic {
-		float: none;
-		padding: 1em 1em 0em 1em;
-		width: 100%;
 	}
 	
 }
