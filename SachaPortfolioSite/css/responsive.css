@@ -346,3 +346,15 @@
 		line-height: .9em ;
 	}
 
+/* fix h3 display on mobile */
+	h3 {
+	color: #58595b;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-size: .8em;
+	font-weight: 400;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-bottom: 1em;
+
+} /* ??? */
+
