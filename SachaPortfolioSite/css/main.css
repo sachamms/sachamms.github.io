@@ -118,7 +118,7 @@ a:hover {
 
 
 h1 {
-	color: #88d7dd;
+	color: #becee5;
 	font-family:'Permanent Marker', Helvetica, sans-serif;
 	font-size: 3em;
 	letter-spacing:;
@@ -149,7 +149,7 @@ h3 {
 } /* ??? */
 
 h4 {
-	color: #88d7dd;
+	color: #becee5;
 	font-family: 'Source Sans Pro', Helvetica, sans-serif;
 	font-weight: 900; 
 	font-size: 1.7em;
@@ -194,7 +194,7 @@ footer p img{
 
 #thickhr {
 	width: 100%;
-	background-color:#e5f9fa;
+	background-color:#becee5;
 	height: 3em;
 	border: 0;
 	margin-bottom: 2em;
