@@ -112,13 +112,13 @@ a {
 
 /* mouse over link */
 a:hover {
-    color: #ed52b1;
+    color: #00aeef;
     text-decoration: none;
 }
 
 
 h1 {
-	color: #becee5;
+	color: #c7c8ca;
 	font-family:'Permanent Marker', Helvetica, sans-serif;
 	font-size: 3em;
 	letter-spacing:;
@@ -149,7 +149,7 @@ h3 {
 } /* ??? */
 
 h4 {
-	color: #becee5;
+	color: #b1b3b6;
 	font-family: 'Source Sans Pro', Helvetica, sans-serif;
 	font-weight: 900; 
 	font-size: 1.7em;
@@ -194,7 +194,7 @@ footer p img{
 
 #thickhr {
 	width: 100%;
-	background-color:#e5e9f3;
+	background-color:#c7c8ca;
 	height: 3em;
 	border: 0;
 	margin-bottom: 2em;
