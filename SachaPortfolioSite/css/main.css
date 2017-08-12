@@ -105,6 +105,7 @@ figcaption {
 }
 
 
+
 a {
     color: #505050;
     text-decoration: none;
@@ -184,6 +185,8 @@ footer p img{
 /* Put classes and IDs below here */
 
 /* IS THIS CORRECT?*/
+
+
 	
 
 #hrseparator {
@@ -206,6 +209,10 @@ footer p img{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-bottom: 2em;
+}
+
+.bio {
+    color: #dedede;
 }
 
 .wrapper{ 
