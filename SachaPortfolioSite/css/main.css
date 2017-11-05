@@ -189,10 +189,13 @@ footer p img{
 
 	
 
-#hrseparator {
-	border-top: 1px dotted black;
+#thinhr {
+	border-top: 1.2px;
 	width: 100%;
-	float:center;
+	background-color:#c7c8ca;
+	height: .2em;
+	border: 0;
+	margin-bottom: 1em;
 }
 
 #thickhr {
