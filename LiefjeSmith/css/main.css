@@ -158,7 +158,7 @@ hr {
 }
 /* Put classes and IDs below here */
 #homePage {
-	background-image: url(../images/homebackground_discovery.jpg);
+	background-image: url(../images/homebackground_halcyon.jpg);
 	background-repeat:no-repeat;
 	background-size: cover;
 	/* ../ for escaping CSS folder */
