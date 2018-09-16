@@ -1,8 +1,8 @@
 
 @media only screen and (max-width:1300px) {
 /* NOT CHANGING IMAGE ????-why? */
-	#circlebanner {
-	background-image: url(../images/homebackground_circlepattern_1300.jpg);
+	#yellowbanner {
+	background-image: url(../images/homebackground_yellow_1300.jpg);
 	height: 6em;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -12,8 +12,8 @@
 
 @media only screen and (max-width:969px) {
 	
-	#circlebanner {
-	background-image: url(../images/homebackground_circlepattern_1300.jpg);
+	#yellowbanner {
+	background-image: url(../images/homebackground_yellow_1300.jpg);
 	height: 6em;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -55,8 +55,8 @@
 
 @media only screen and (max-width:850px) {
 
-	#circlebanner {
-	background-image: url(../images/homebackground_circlepattern_1300.jpg);
+	#yellowbanner {
+	background-image: url(../images/homebackground_yellow_1300.jpg);
 	height: 6em;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -133,7 +133,7 @@
 
 	/* ADJUST SIZE*/
 
-	#circlebannerattop { 
+	#yellowbannerattop { 
 		width: 100%;
 		padding-top: 0;
 		padding-bottom: 2em;
@@ -150,8 +150,8 @@
 	/* UNIVERSAL CHANGES */
 	/* put CSS properties in alphabetical order-DONE */
 
-#circlebanner {
-	background-image: url(../images/homebackground_circlepattern_750.jpg);
+#yellowbanner {
+	background-image: url(../images/homebackground_yellow_750.jpg);
 	height: 6em;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -226,7 +226,7 @@
 
 	/* ADJUST SIZE*/
 
-	#circlebannerattop { 
+	#yellowbannerattop { 
 		width: 100%;
 		padding-top: 0;
 		padding-bottom: 2em;
@@ -320,7 +320,7 @@
 
 	/* ADJUST SIZE*/
 
-	#circlebannerattop { 
+	#yellowbannerattop { 
 		width: 100%;
 		padding-top: 0;
 		padding-bottom: 2em;
